@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Alexandre Bredillot
 %% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
+%% Use as a master reference when tailoring role-specific CVs (cv/main_<company>.tex).
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -10,32 +9,31 @@
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% Force first/last name AND section headings to render in moderncv blue (color1).
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
+\usepackage{needspace}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Alexandre Bredillot - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+% Personal data
+\name{Alexandre}{Bredillot}
+\address{Paris, France}{}{}
+\phone[mobile]{+33 6 20 35 21 73}
+\email{alexandrebredillot@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alexandre-bredillot}{LinkedIn}, \href{https://github.com/McJack3d}{GitHub}, \href{https://mcjack3d.github.io/}{Portfolio}}
 
 \begin{document}
 
@@ -46,7 +44,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Data \& AI practitioner (MSc Data Science \& AI, EDHEC) who builds applied ML end to end, from data engineering to explainable, deployable systems. Real financial-data experience at L'Oréal and La Banque Postale, backed by independent projects in financial ML and algorithmic trading. Strong in Python, SQL/BigQuery, BI, and data governance. Seeking a long-term Data Scientist / ML Engineer / Data Engineer role from January 2027.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -55,17 +53,11 @@
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{Programming \& ML}: Python (Pandas, NumPy, scikit-learn, PyTorch, Keras, Statsmodels), SQL, PostgreSQL, Git, Docker (basics).
+\item \textbf{Machine Learning \& NLP}: LSTM/RNN, CNN, SVM, Random Forests, PCA/t-SNE/K-means; LLMs, embeddings, FinBERT; SHAP interpretability; time-series (ARIMA, SARIMA, volatility models).
+\item \textbf{BI \& Data Platforms}: Power BI, QlikSense, Dataiku, Tableau, Looker Studio; Google Cloud Platform, BigQuery (CTEs, window functions), GA4/GTM.
+\item \textbf{Data Engineering \& Governance}: production pipelines, data quality \& validation, master-data structuring, SEPA/PSD2/Instant Payment flows, XML mapping.
+\item \textbf{Domain}: financial \& payment data, B2B commerce / BeautyTech data products, quantitative \& algorithmic finance.
 \end{itemize}
 
 % ============================================================
@@ -76,34 +68,61 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2026}{Data Product Owner -- Customer \& Sales Activation}{L'Oréal}{Clichy, France}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Building a dashboard webapp for the ``Find Your Customer'' B2B project, making commerce data accessible to business stakeholders.
+    \item Processing and structuring large volumes of scattered data (Salesforce structure, points of sale, customer data); ensuring data quality and master-data structuring.
+    \item Working daily with Data Product Owners and Data Engineers to optimize data flows and product delivery.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2025}{Data Analyst Intern -- Payment Department}{La Banque Postale}{Paris, France}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Built the ``Commando'' steering tools: automated reporting and real-time dashboards (QlikSense, Dataiku, Python, SQL) to monitor payment flows.
+    \item Optimized financial processes: anomaly detection, enhanced SEPA/PSD2/Instant Payment flows, reduced operational delays and costs.
+    \item Implemented data-quality validation rules and automated error detection; XML mapping for traceability.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2024}{Finance Operations}{Sienna Investment Managers}{Luxembourg}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Treasury management, cash-flow projections, and management reporting.
+    \item Invoice processing, accounts payable/receivable, and regulatory compliance (VAT, income tax).
 \end{itemize}}}
 
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{2023}{Business Development}{EasyBourse}{Issy-les-Moulineaux, France}{}{\vspace{1pt}
+\begin{itemize}
+    \item Commercial support, market/sales analysis, and digital marketing campaigns.
+\end{itemize}}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{2023--2026}{Reserve Soldier -- 2nd Dragoon Regiment (6th Squadron)}{French Army Reserve}{Fontevraud-l'Abbaye, France}{}{\vspace{1pt}
+\begin{itemize}
+    \item Cavalry reserve; NRBC/CBRN threat operations. Completed 3 years of service.
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{MSc Thesis -- Sentiment \& return predictability (nuclear small-caps)}: five-phase pipeline (data engineering, FinBERT scoring, LSTM, SHAP) over 3,992 ticker-days / 25,885 articles; sentiment augmentation gave a statistically significant 5.18\% MAE improvement at the 5-day horizon.
+\item \textbf{TRAD\_BOT -- algorithmic trading suite} (\href{https://github.com/McJack3d/TRAD_BOT}{GitHub}): Binance funding-rate arbitrage bot + IBKR FinBERT$\rightarrow$LLM sentiment bot; event-driven backtester, risk kill-switch, reconciliation, monitoring; backtest/paper/dry-run/live modes.
+\item \textbf{FIN\_PP -- stock price prediction} (\href{https://github.com/McJack3d/FIN_PP}{GitHub}): fundamental + technical + sentiment analysis in Python.
 \end{itemize}
 
 % ============================================================
@@ -114,14 +133,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\needspace{4\baselineskip}
+\item{\cventry{2025--2026}{MSc in Data Science \& Artificial Intelligence}{EDHEC Business School}{Lille, France}{}{\vspace{1pt}
+Machine learning \& deep learning, NLP/LLMs, time-series forecasting, cloud \& data engineering, BigQuery, web analytics.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2022--2025}{Bachelor in International Business \& Management}{ESSCA School of Management}{Paris, France}{}{\vspace{1pt}
+International business, finance, economics, marketing, data analysis.
 }}
 
 \end{itemize}
@@ -133,27 +153,17 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item French (native), English C1 (TOEIC 990, TOEFL iBT 95), Spanish B2, Russian A2.
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CERTIFICATIONS
 % ============================================================
 
-\section{Publications}
+\section{Certifications}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item SAFe 6 Agilist (2026); Bloomberg Market Concepts (2025); Claude Code 101 (Anthropic); IBM Data Science specialization.
 \end{itemize}
 
 % ============================================================

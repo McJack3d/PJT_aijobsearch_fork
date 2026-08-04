@@ -1,10 +1,9 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Alexandre Bredillot
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+<!-- Populated by /setup from documents/cv/, documents/portfolio/, and documents/linkedin/. -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Alexandre Bredillot, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,74 +12,73 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Alexandre Bredillot
+- **Location:** Paris / Île-de-France, France
+- **Languages:** French (native), English C1 (TOEIC 990, TOEFL iBT 95), Spanish B2, Russian A2
+- **Status:** MSc Data Science & AI candidate (EDHEC); Data Product Owner (work-study, Customer & Sales Activation) at L'Oréal (Jul–Dec 2026), wraps up alongside the MSc; seeking a full-time position from January 2027
+- **Geography targets:** France (Paris) · VIE roles in North America / Asian hubs / Portugal · full-time in Montreal
+- **LinkedIn headline:** "Data Product Owner @ L'Oréal | Customer & Sales Activation | MSc Data Science & AI @ EDHEC"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MSc in Data Science & Artificial Intelligence** (2025–2026) - EDHEC Business School, Lille
+  - ML/DL, NLP/LLMs, time-series forecasting, cloud & data engineering, BigQuery, GA4/GTM
+  - Thesis: "Sentiment Analysis & Short-Term Return Predictability in Small-Cap Nuclear Equities"
+- **Bachelor in International Business & Management** (2022–2025) - ESSCA School of Management, Paris
+- **Baccalauréat**, Economic and Social Sciences (2022) - Institut Sainte Geneviève *(pre-university; omitted from the CV itself)*
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Data Product Owner – Customer & Sales Activation** (Jul–Dec 2026, work-study) - **L'Oréal** (Clichy, France)
+  - B2B "Find Your Customer" dashboard webapp; structuring large-scale scattered data; data quality; cross-functional work with Data POs and Data Engineers
+- **Data Analyst Intern – Payment Department** (Jan–Jul 2025) - **La Banque Postale** (Paris)
+  - "Commando" steering tools (QlikSense, Dataiku, Python, SQL); SEPA/PSD2/Instant Payment optimization; data-quality rules; XML mapping
+- **Finance Operations** (Jan–Jul 2024) - **Sienna Investment Managers** (Luxembourg)
+  - Treasury management, cash projections, management reporting, invoicing, regulatory compliance
+- **Business Development** (May–Jul 2023) - **EasyBourse** (Issy-les-Moulineaux, France)
+  - Commercial support, marketing/digital campaigns, market research, client analytics
+- **Reserve Soldier – 2nd Dragoon Regiment** (Feb 2023 – Feb 2026, completed) - **French Army Reserve** (Fontevraud-l'Abbaye)
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python (Pandas, NumPy, scikit-learn, PyTorch, Keras, Statsmodels), SQL/PostgreSQL/BigQuery
+- **Secondary:** BI (Power BI, QlikSense, Dataiku, Tableau, Looker Studio), GCP, GA4/GTM, Docker (basics), Git, VBA
+- **ML/AI:** LSTM/RNN/CNN, SVM, Random Forests, PCA/t-SNE/K-means, NLP (LLMs, FinBERT, embeddings), SHAP, time-series (ARIMA/SARIMA)
+- **Domain:** financial & payment data (SEPA/PSD2), data quality & governance, B2B commerce / BeautyTech data, quantitative/algorithmic finance
+
+### Independent Projects
+- **MSc Thesis pipeline** — FinBERT + LSTM + SHAP; 3,992 ticker-days / 25,885 articles; statistically significant 5.18% MAE improvement at 5-day horizon
+- **TRAD_BOT** — algorithmic trading suite (Binance arbitrage + IBKR sentiment bot; backtester, risk kill-switch, CI)
+- **FIN_PP** — stock price prediction (fundamental + technical + sentiment)
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
-
-### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
-
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- SAFe 6 Agilist (2026) · Bloomberg Market Concepts (2025) · Claude Code 101 (Anthropic) · IBM Data Science specialization (What is Data Science?, Python Project for Data Science, Data Visualization with Python, Machine Learning with Python)
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Curious and rigorous (self-described)** - LinkedIn About: "Curious, rigorous, and committed... passionate about using data to enhance decision-making, performance, and risk control in the financial sector"
+- **Self-driven builder** - ships substantial independent projects and certifications beyond coursework *(inferred)*
+- **Methodical & risk-aware** - phased pipelines, spec-driven systems, acceptance gates, kill-switches *(inferred)*
+- **Cross-functional** - delivers usable data products with POs, engineers, and business stakeholders
+- **Strengths:** applied ML/NLP, financial data, BI & data quality, end-to-end delivery
+- **Growth areas:** early-career tenure; large-scale production ML/MLOps
+- **Thrives in:** end-to-end ownership, applied outcome-oriented work with a clear business/financial purpose
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building end-to-end data products and pipelines; applied ML/NLP
+- Quantitative/financial modeling; turning messy data into actionable insight and automation
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Finance / fintech / payments: banks, asset managers, trading, fintech
+- BeautyTech / commerce / industry data: L'Oréal-type data organizations
+- AI-first companies: applied AI, LLM, data-platform teams
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- *[To confirm]* Maintenance-only / no-build roles; environments with no room to automate or engineer
 
 ## Repo Structure
-- `cv/` - LaTeX CV variants (moderncv template, banking style)
+- `cv/` - LaTeX CV variants (moderncv banking style); `main_example.tex` is the master reference
 - `cover_letters/` - LaTeX cover letters (custom cover.cls template)
+- `documents/` - source material (CV in `cv/`, portfolio extract in `portfolio/`, LinkedIn export in `linkedin/`)
 - `.claude/skills/` - AI skill definitions for the application workflow
-- `.agents/skills/` - Job search CLI tools
+- `.agents/skills/` - Job search CLI tools (Danish portals - not used for this France/VIE/Montreal profile)
 
 ## Workflow for New Job Applications
 1. User provides a job posting (URL or text)

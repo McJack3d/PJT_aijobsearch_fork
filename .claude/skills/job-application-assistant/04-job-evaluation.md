@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python (Pandas, NumPy, scikit-learn, PyTorch, Keras), SQL/BigQuery, BI (Power BI, QlikSense, Dataiku, Tableau), applied ML & NLP (LSTM, FinBERT, SHAP), time-series forecasting, data quality & governance, financial/payment data
+**Moderate match areas:** data engineering & production pipelines, GCP/cloud, Docker & deployment/MLOps, algorithmic/quant finance, software engineering (JS/Java basics)
+**Weak match areas:** senior/lead-level ownership, large-scale distributed systems, non-Python production stacks, deep MLOps at scale
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** data analytics & BI dashboarding, financial services / payments (SEPA/PSD2), data quality & governance, cross-functional data-product delivery
+**Moderate:** data engineering, applied ML/NLP, B2B commerce / BeautyTech data, quantitative finance
+**Entry-level:** senior IC / lead roles, pure research data science, large-scale ML platform engineering
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,12 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Paris / Île-de-France (commutable): PASS
+- Remote or hybrid: PASS
+- VIE in North America, an Asian hub, or Portugal: PASS (actively targeted)
+- Full-time in Montreal, Canada: PASS (actively targeted)
+- Relocation to a geography outside those targets: FLAG (discuss with user, not an automatic fail)
+- Frequent international travel: PASS (acceptable)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +65,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Grow into a Data Scientist / AI-ML Engineer / Data Engineer role, ideally applying AI to finance, commerce, or industry
+- Build toward AI strategy and data governance responsibility over time
+- Leverage a distinctive finance + data profile (quant/algorithmic ML, payments, BI) rather than being pigeonholed as a pure analyst
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: building end-to-end data products and pipelines, applied ML/NLP, quantitative/financial modeling, automation, turning messy data into actionable business insight
+- Tasks that drain: *[inferred — confirm]* purely manual/repetitive reporting with no automation, rigid bureaucratic process with no room to build
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: early-career, seeking a stable long-term position starting January 2027 (post-MSc, post-L'Oréal internship)
+- **Flexibility**: open to relocation — France (Paris), VIE roles in North America / Asian hubs / Portugal, or full-time in Montreal
+- **Professional development**: high priority — wants strong technical mentorship and exposure to senior data/AI decision-making
 
 ### 6. Salary Benchmark (Optional)
 

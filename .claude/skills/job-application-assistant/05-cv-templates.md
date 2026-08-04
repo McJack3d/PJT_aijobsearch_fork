@@ -105,12 +105,15 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+<!-- Populated by /setup. Adapt the bracketed hooks to each specific posting. -->
+**For Data Scientist / Applied ML roles:**
+> Data & AI practitioner (MSc Data Science & AI, EDHEC) who builds applied ML end to end, from data engineering to explainable models. Author of a FinBERT+LSTM sentiment pipeline that delivered a statistically significant 5.18% MAE improvement in equity return prediction, and of a production-grade algorithmic trading suite. Combines Python/ML depth with real financial-data experience at L'Oréal and La Banque Postale. Ready to [tie to the team's core ML problem from the posting].
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For AI/ML Engineer / AI strategy roles:**
+> Engineer-analyst who takes AI from prototype to something that runs: spec-driven pipelines, backtesting, risk gating, and deployment (async Python, SQLAlchemy, Docker, CI). Built an IBKR trading bot around a two-stage FinBERT→LLM sentiment funnel and a Binance arbitrage engine with kill-switches and reconciliation. Brings a finance + data-governance lens to applied AI. Focused on [the posting's product/impact].
+
+**For Data Engineer / Data Governance / BI roles:**
+> Data professional who turns scattered operational and financial data into reliable, governed products. At L'Oréal, structures large-scale B2B commerce data (Salesforce, POS, customer) for stakeholder-facing dashboards; at La Banque Postale, automated real-time payment-flow monitoring (QlikSense, Dataiku, Python, SQL) and enforced SEPA/PSD2 data-quality rules. Strong on BigQuery, BI, and pipeline reliability. Ready to [tie to the posting's data-platform goal].
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

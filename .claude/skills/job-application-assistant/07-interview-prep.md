@@ -10,28 +10,35 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Drafted by /setup from documented experience. Verify the exact figures/wording before an interview. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. MSc Thesis — sentiment-augmented equity return prediction (applied ML / rigor)
+**S:** Wanted to test whether news sentiment adds predictive signal for short-term returns in small-cap nuclear equities, an under-researched, noisy segment.
+**T:** Design and run the whole study end to end, and prove any improvement was real, not noise.
+**A:** Built a five-phase pipeline — feasibility audit, data engineering (3,992 ticker-days, 25,885 news articles), FinBERT sentiment scoring, LSTM training, and SHAP explainability — and benchmarked sentiment-augmented vs. baseline models.
+**R:** Sentiment augmentation gave a statistically significant 5.18% average MAE improvement at the 5-day horizon; SHAP made the driver features interpretable.
+**Use for:** "Walk me through an end-to-end ML project", "How do you validate a model?", "Tell me about a time you handled messy data"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. TRAD_BOT — production-grade algorithmic trading suite (engineering / risk-awareness)
+**S:** Wanted to trade two strategies (Binance funding-rate arbitrage; IBKR sentiment long/short) safely with real money on the line.
+**T:** Build systems that are correct and fail safe, not just backtest-profitable.
+**A:** Engineered spec-driven bots with an event-driven backtester, pre-trade risk checks, a kill-switch, a reconciliation loop, and Telegram/email monitoring; staged execution through backtest → paper → dry-run → live gates; async SQLAlchemy state, Pydantic config, systemd + docker-compose deploy, CI.
+**R:** A deployable suite that only reaches live trading after explicit acceptance gates pass, with adversarial risk-manager tests in CI.
+**Use for:** "Tell me about a technically complex project", "How do you handle risk/edge cases?", "Describe something you built beyond coursework"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. La Banque Postale — "Commando" payment-flow steering tools (delivery / stakeholders)
+**S:** The payment department lacked real-time visibility into SEPA/PSD2/Instant Payment flows and relied on slow manual reporting.
+**T:** Automate reporting and give the team live monitoring.
+**A:** Built the "Commando" steering tools — dashboards and automated reporting in QlikSense, Dataiku, Python, and SQL — plus validation rules, automated error detection, and XML mapping for traceability.
+**R:** Real-time monitoring of payment flows, faster anomaly detection, and reduced operational delays and costs.
+**Use for:** "Tell me about a time you improved a process", "How do you work with non-technical stakeholders?", "Describe automating something manual"
+
+### 4. L'Oréal — B2B commerce data product (data structuring / cross-functional)
+**S:** B2B commerce data (Salesforce structure, points of sale, customer data) was scattered and hard for business stakeholders to use.
+**T:** Make it accessible and trustworthy through a dashboard webapp for the "Find Your Customer" project.
+**A:** Processed and structured large volumes of data, enforced data quality, handled master-data structuring, and worked daily with Data Product Owners and Data Engineers to optimize flows and delivery.
+**R:** A stakeholder-facing dashboard making B2B commerce data usable across business teams. *(ongoing internship — quantify impact when available)*
+**Use for:** "Tell me about cross-functional work", "How do you ensure data quality?", "Describe delivering for business users"
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 

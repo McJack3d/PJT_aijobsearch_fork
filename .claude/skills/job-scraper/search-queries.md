@@ -1,70 +1,91 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
+<!-- Populated by /setup for Alexandre Bredillot. Target roles: Data Scientist, AI/ML Engineer & AI strategy, Data Engineer. -->
+<!-- NOTE: The bundled Danish CLI scrapers (jobindex/jobnet/jobbank/jobdanmark) are NOT used for this profile. Search is driven by the LinkedIn/Google site-search queries below. -->
+
+## Geography (three parallel tracks)
+
+1. **France (base):** Paris / Île-de-France, plus remote-in-France.
+2. **VIE (Volontariat International en Entreprise):** North America, Asian hubs (e.g. Singapore, Hong Kong, Tokyo), or Portugal (Lisbon/Porto). VIE is a French/EEA program for under-28s — search the official portal plus company VIE listings.
+3. **Montreal, Canada:** full-time regular (permanent) positions.
 
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+**France:**
+- **linkedin.com/jobs** — filter: France / Île-de-France
+- **welcometothejungle.com** — strong for tech/data roles in France
+- **apec.fr** — cadres (professional/graduate) roles
+- **fr.indeed.com**
+- **choosemycompany.com / glassdoor.fr** — for company research
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+**VIE:**
+- **mon-vie-via.businessfrance.fr** — official VIE/VIA portal (primary source)
+- **linkedin.com/jobs** — query `"VIE" data` filtered to the target countries
+- Company career pages of large French groups that post VIE roles (L'Oréal, TotalEnergies, BNP Paribas, Schneider Electric, Dassault Systèmes, Capgemini, etc.)
+
+**Montreal / Canada:**
+- **linkedin.com/jobs** — filter: Montréal, QC / Canada
+- **ca.indeed.com**, **jobboom.com**, **quebecemploi**
+- Company career pages (Shopify, CGI, Coveo, Element AI/ServiceNow, banks, gaming/AI studios)
+
+**Company career pages via Google:** direct `site:` searches for target companies.
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Queries grouped by priority. Combine each with the relevant location term for the track being searched (`Paris`, `"Île-de-France"`, `Montréal`, or the VIE country).
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
-
-These match your strongest and most desired career direction.
+### Priority 1: Data Scientist / Applied ML
 
 ```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
+site:linkedin.com/jobs "Data Scientist" Paris
+site:linkedin.com/jobs "Machine Learning Engineer" "Île-de-France"
+site:welcometothejungle.com "Data Scientist" Paris
+site:apec.fr "Data Scientist" OR "Machine Learning"
+"VIE" ("Data Scientist" OR "Data Analyst") site:mon-vie-via.businessfrance.fr
+site:linkedin.com/jobs "Data Scientist" Montréal
 ```
 
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+### Priority 2: AI / ML Engineer & AI strategy
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "AI Engineer" OR "ML Engineer" Paris
+site:welcometothejungle.com ("AI Engineer" OR "MLOps" OR "LLM") Paris
+site:linkedin.com/jobs "AI strategy" OR "AI consultant" France
+"VIE" ("AI" OR "Machine Learning" OR "Data") Singapore OR "Hong Kong" OR Lisbon OR Montreal
+site:linkedin.com/jobs "Machine Learning" OR "Applied Scientist" Montréal
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
-
-Adjacent roles you could pivot into.
+### Priority 3: Data Engineer / Data Governance / BI
 
 ```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
+site:linkedin.com/jobs "Data Engineer" Paris
+site:linkedin.com/jobs ("Analytics Engineer" OR "BigQuery" OR "Dataiku") "Île-de-France"
+site:welcometothejungle.com ("Data Engineer" OR "Data Governance") Paris
+"VIE" ("Data Engineer" OR "Data Analyst" OR "BI") site:mon-vie-via.businessfrance.fr
+site:linkedin.com/jobs "Data Engineer" OR "BI Analyst" Montréal
 ```
 
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+### Priority 4: Domain-flavored (finance / quant / payments)
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs ("Quantitative" OR "Quant") "Data" Paris
+site:linkedin.com/jobs ("Data Scientist" OR "Data Analyst") ("payments" OR "fintech" OR "banking") Paris
+site:linkedin.com/jobs "Data" ("finance" OR "trading" OR "risk") Montréal
+site:welcometothejungle.com "Data" fintech Paris
 ```
+
+## Distinctive Search Terms
+
+Use these to sharpen queries (from the profile): `FinBERT`, `LSTM`, `SHAP`, `QlikSense`, `Dataiku`, `BigQuery`, `Power BI`, `SEPA`, `PSD2`, `PyTorch`, `time-series forecasting`, `data governance`, `data quality`.
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, keep only jobs that fall into one of the three tracks:
+- **Ideal:** Paris / Île-de-France (on-site or hybrid); remote-in-France.
+- **Ideal:** VIE roles in North America, an Asian hub, or Portugal (confirm VIE eligibility and duration).
+- **Ideal:** Montréal, QC full-time permanent (check work-authorization requirements — may need a permit / Working Holiday).
+- **Borderline:** rest of France requiring relocation, or remote-EU roles — FLAG for the user.
+- **Too far / skip:** roles outside these tracks unless strategically compelling.
 
 ## Date Filter
 
@@ -72,5 +93,4 @@ Only include jobs posted within the last 14 days, or with an application deadlin
 
 ## Adapting Queries
 
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. Example: `/scrape VIE Lisbon` → Priority-1/2 queries scoped to the VIE portal + Portugal, plus custom Lisbon-specific queries.
