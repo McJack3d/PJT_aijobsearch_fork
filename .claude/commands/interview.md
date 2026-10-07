@@ -1,4 +1,4 @@
-# /interview - Prepare for an Interview on a Tracked Application
+# /interview - Prepare for an Interview for a Specific Role
 
 You are preparing the user for a real, scheduled interview on one of their applications. The frameworks for this already exist - `07-interview-prep.md` (STAR examples, tough questions, questions to ask, roleplay protocol) and the Company Research Checklist in `04-job-evaluation.md` - and the `/outcome` archive records which stage the user is at and what earlier stages surfaced. This command wires them together into a stage-specific prep pack and an optional mock interview.
 
@@ -12,10 +12,10 @@ Follow these steps **in order**.
 
 `$ARGUMENTS` may contain a company name (optionally with a role), e.g. `/interview acme`.
 
-- **With an argument:** match against `job_search_tracker.csv` rows (case-insensitive on company, then role). One match → proceed. Several → list and ask. None → this application isn't tracked; suggest `/outcome <company>` to register it first, or accept the posting and role details directly if the user wants to prep anyway.
-- **Without an argument:** list tracker rows whose status suggests a live process (`interview`, `offer`, or recently `applied`) and ask which one. If the tracker is empty, ask for the company, role, and posting.
+- **With an argument:** use the supplied company/role or posting URL/text. An existing `documents/applications/<company>_<role>/` folder may supply context; no prior registration is required.
+- **Without an argument:** ask for the company, role and posting, plus the submitted CV if available.
 
-v1 preps for a **specific application**. Generic no-target practice is out of scope - if asked, prep against a real tracked application instead.
+Prepare for a specific role; no application history is required.
 
 ---
 
@@ -23,9 +23,9 @@ v1 preps for a **specific application**. Generic no-target practice is out of sc
 
 1. **The archive** (maintained by `/outcome`): `documents/applications/<company>_<role>/`
    - `job_posting.md` - the exact posting the user applied to
-   - `cv_draft.tex` and `cover_letter.tex` - what was actually submitted. **These are what the interviewer read**; every talking point must be consistent with their claims.
+   - Submitted CV/letter files (PDF, DOCX or TeX), only if confirmed by the user — what was actually submitted. **These are what the interviewer read**; every talking point must be consistent with their claims.
    - `outcome.md` - the stage reached so far and any recorded feedback from earlier stages. Feedback from stage N is the highest-value input for stage N+1 prep.
-2. **Fallbacks** (the application may predate `/outcome`): posting via WebFetch on the tracker row's `source` URL, or ask the user to paste it; CV via `cv/main_<company>.tex` and cover letter via `cover_letters/cover_<company>_*.tex`. State plainly which context is missing rather than guessing - and suggest `/outcome <company>` to build the archive for next time.
+2. **Fallbacks** (the application may predate `/outcome`): posting via WebFetch on a user-supplied or saved URL, or ask the user to paste it; CV via `cv/main_<company>.tex` and cover letter via `cover_letters/cover_<company>_*.tex`. State plainly which context is missing rather than guessing.
 3. **Ask the user what this interview is** (skip anything `outcome.md` already records): stage (phone screen / technical / case / final round), date, format (phone, video, onsite), and who is interviewing (names and titles, if known).
 4. **Read the frameworks once** - do not re-read them in later steps:
    - `.claude/skills/job-application-assistant/07-interview-prep.md`
@@ -41,7 +41,7 @@ Execute the Company Research Checklist that `04-job-evaluation.md` defines: comp
 
 Additions for interview purposes:
 
-- **Interviewer angle:** if interviewer names are known (from Step 1 or the tracker's `contact_person`), look up their public professional profile. A hiring manager probes team fit and motivation; a senior engineer probes technical depth; HR probes the CV timeline. Note the likely angle per interviewer - do not speculate beyond public information.
+- **Interviewer angle:** if interviewer names are known (supplied by the user or recorded in optional notes), look up their public professional profile. A hiring manager probes team fit and motivation; a senior engineer probes technical depth; HR probes the CV timeline. Note the likely angle per interviewer - do not speculate beyond public information.
 - **Conversation hooks:** 2-3 recent, verifiable company specifics (a product launch, a stated strategic priority) the user can reference naturally in answers and in the "why this company" moment.
 
 **Verify before using:** every company claim that will appear in the prep pack must be independently confirmed via WebFetch/WebSearch - same rule the repo applies to cover-letter claims. An unverified "fact" delivered confidently in an interview is worse than no fact.
@@ -88,11 +88,9 @@ Calibrate feedback against `02-behavioral-profile.md`: coach toward the user's n
 
 ---
 
-## Step 5: Close the Loop
+## Step 5: Present the Prep
 
-End with:
-
-> Good luck. After the interview, run `/outcome <company>` to log the stage and any feedback - it sharpens the prep for the next round, and once the process resolves it feeds your fit-framework calibration via `/setup`.
+Present the prep pack and unresolved questions. Do not request routine outcome logging; feedback can be supplied directly for another round.
 
 If Step 3 drafted new STAR answers the user approved for keeps, remind them those were appended to `07-interview-prep.md` (or offer again if they deferred).
 

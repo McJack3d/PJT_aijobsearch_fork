@@ -66,8 +66,6 @@ documents/references/**
 documents/applications/**
 !documents/**/.gitkeep
 
-# Personal job search tracking
-job_search_tracker.csv
 
 # Upskill reports (personal output)
 upskill/*.md

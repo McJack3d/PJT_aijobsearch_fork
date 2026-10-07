@@ -1,0 +1,91 @@
+{
+  "run_date": "2026-10-07",
+  "track": "VIE worldwide",
+  "results": [
+    {
+      "title": "VIE AI Engineer & Data Scientist Consultant",
+      "company": "Sia",
+      "location": "Melbourne, Australia",
+      "url": "https://www.jobteaser.com/fr/job-offers/b5dc0023-3b88-4307-8bfb-e6307392369d-sia-vie-ai-engineer-data-scientist-consultant",
+      "posting_date": "2026-09-18",
+      "deadline": "While posting remains online (page has live Apply control)",
+      "start_date": "January 2027",
+      "duration": "12 to 24 months",
+      "full_description_verified": true,
+      "fit": "needs_evaluation",
+      "status": "new",
+      "requirements": [
+        "Master degree in relevant technical field",
+        "At least one year technical experience in Data Science, Big Data or AI solutions",
+        "Python and version control",
+        "At least one of GenAI frameworks/advanced prompting, deep learning frameworks, or strong statistics",
+        "Fluent English",
+        "VIE eligibility"
+      ],
+      "evidence": "L’Oréal eight-tool AI assistant, prompt/gateway integration, GCP production delivery and stakeholder work; Python/SQL at La Banque Postale; MSc and English C1.",
+      "unresolved_gates": [
+        "VIE eligibility",
+        "Completed MSc by start",
+        "One year qualifying technical experience is not yet established as of 2026-10-07; do not count future L’Oréal months. Confirm whether banking analytics qualifies and whether experience is assessed at start."
+      ],
+      "gaps": [
+        "RAG and agent orchestration frameworks not demonstrated in latest CV",
+        "No proven deep learning production experience"
+      ],
+      "discovery_source": "JobTeaser employer posting (public, full fetched description)",
+      "recency_basis": "Explicit rolling deadline while online, fetched 2026-10-07",
+      "first_seen": "2026-10-07",
+      "retrieved_at": "2026-10-07",
+      "date": "2026-09-18",
+      "discovery_decision": "conditional_stretch",
+      "track": "VIE worldwide",
+      "fit_notes": "L’Oréal eight-tool AI assistant, prompt/gateway integration, GCP production delivery and stakeholder work; Python/SQL at La Banque Postale; MSc and English C1. Gaps: RAG and agent orchestration frameworks not demonstrated in latest CV; No proven deep learning production experience",
+      "source_archive_error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "excluded_or_unverified": [
+    {
+      "title": "Ingénieur Transformation Digitale & Data Finance (H/F) – Belgique",
+      "company": "TotalEnergies",
+      "url": "https://www.bonjour-vie.com/offers/246626",
+      "reason": "Mirror says 1 February 2027; employer LinkedIn says Q1 2027. January not confirmed; official Business France direct fetch unavailable.",
+      "status": "excluded",
+      "posting_date": "2026-10-02",
+      "deadline": "2026-11-01"
+    },
+    {
+      "title": "VIE - Data Analyst (H/F) - New York",
+      "company": "Hermès",
+      "reason": "Already present in seen_jobs; deduplicated"
+    },
+    {
+      "title": "VIE - Data Engineer (H/F) - New York",
+      "company": "Hermès",
+      "reason": "Secondary publication 30 August; no verified open deadline or January start; not included"
+    },
+    {
+      "title": "Data, Digital & AI- Frames Advanced Manufacturing Engineering VIE",
+      "company": "Forvia",
+      "url": "https://jobs.faurecia.com/careers/job/563087417532596",
+      "reason": "Official listing discovered but direct full description inaccessible; not expired, unavailable"
+    },
+    {
+      "title": "Data Engineer (H/F)",
+      "company": "Alstom",
+      "url": "https://www.bonjour-vie.com/offers/244966",
+      "reason": "Mirror explicitly expired 28 August 2026"
+    },
+    {
+      "title": "PRODUCT & BUSINESS ANALYST (H/F)",
+      "company": "Bizline",
+      "url": "https://www.bonjour-vie.com/offers/245321",
+      "reason": "Mirror explicitly expired 19 September 2026"
+    },
+    {
+      "title": "Business Controller / Finance Transformation (H/F)",
+      "company": "Legrand",
+      "url": "https://mon-vie-via.businessfrance.fr/offres/246393",
+      "reason": "January verified in search index; finance controlling rather than targeted data/AI build role, advanced accounting missing; direct page loading only"
+    }
+  ]
+}

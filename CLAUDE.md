@@ -10,6 +10,14 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 4. **Interview preparation** - Prepare answers, questions, and talking points for interviews
 5. **Career strategy** - Advise on positioning and personal branding
 
+## Current evidence and ranking authority
+
+User-confirmed targets (2026-10-07): VIE worldwide and local contracts in Canada only, Québec preferred, starting January 2027. These override older summaries below.
+
+The latest CV is `documents/cv/CV_Alexandre_Bredillot_EN.docx` (user supplied, refreshed 2026-10-07). Use the **Current ranking evidence** section of `.claude/skills/job-application-assistant/01-candidate-profile.md` before any older summary below. Current L’Oréal title: **Data & AI Product Developer – Global Commerce Data Domain**, July 2026–Present. Evidence includes BigQuery modelling and optimisation, a co-developed React/Cloud Run production webapp, an integrated AI assistant with eight tools, row-level security, data contracts and CI/CD. Latest independent project: n3gh, 257 products / 25 categories. Do not silently promote older thesis/trading projects or old advanced-skill labels into current ranking evidence.
+
+Use `.claude/skills/job-application-assistant/04-job-evaluation.md` as the single scoring authority. Assess eligibility first, then evidence and seniority. Career interest and culture are separate qualitative notes, never weighted into hiring fit. There is no application tracker or required outcome logging. `seen_jobs.json` is only discovery/deduplication and ranking state, not application history.
+
 ## Candidate Profile
 
 ### Identity
@@ -17,7 +25,7 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 - **Location:** Paris / Île-de-France, France
 - **Languages:** French (native), English C1 (TOEIC 990, TOEFL iBT 95), Spanish B2, Russian A2
 - **Status:** MSc Data Science & AI candidate (EDHEC); Data Product Owner (work-study, Customer & Sales Activation) at L'Oréal (Jul–Dec 2026), wraps up alongside the MSc; seeking a full-time position from January 2027
-- **Geography targets:** France (Paris) · VIE roles in North America / Asian hubs / Portugal · full-time in Montreal
+- **Geography targets (VIE-first, worldwide):** (1) **VIE roles anywhere in the world** — the lead track, no country restriction; (2) **Canada (Montréal and elsewhere)** — second track. **France / Paris / Île-de-France is NOT a current target** and is excluded from scrapes and shortlists.
 - **LinkedIn headline:** "Data Product Owner @ L'Oréal | Customer & Sales Activation | MSc Data Science & AI @ EDHEC"
 
 ### Education

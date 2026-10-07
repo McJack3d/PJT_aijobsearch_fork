@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4437440329",
+      "title": "Machine Learning Engineer, Lyft Business & Ads",
+      "company": "Lyft",
+      "companyUrl": "https://www.linkedin.com/company/lyft",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-lyft-business-ads-at-lyft-4437440329"
+    },
+    {
+      "id": "4462537804",
+      "title": "Machine Learning Developer Associate / Développeur(euse) en apprentissage automatique associé(e)",
+      "company": "IBM",
+      "companyUrl": "https://www.linkedin.com/company/ibm",
+      "location": "Calgary, Alberta, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-developer-associate-d%C3%A9veloppeur-euse-en-apprentissage-automatique-associ%C3%A9-e-at-ibm-4462537804"
+    },
+    {
+      "id": "4473240296",
+      "title": "AI Developer",
+      "company": "Cameco Corporation",
+      "companyUrl": "https://ca.linkedin.com/company/cameco-corporation",
+      "location": "Saskatoon, Saskatchewan, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/ai-developer-at-cameco-corporation-4473240296"
+    },
+    {
+      "id": "4461334198",
+      "title": "Senior AI Developer (AI-Powered Applications)",
+      "company": "OpenText",
+      "companyUrl": "https://ca.linkedin.com/company/opentext",
+      "location": "Waterloo, Ontario, Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/senior-ai-developer-ai-powered-applications-at-opentext-4461334198"
+    },
+    {
+      "id": "4465405752",
+      "title": "Machine Learning Engineer, AI Processors (New Grad to Engineer Level)",
+      "company": "Qualcomm",
+      "companyUrl": "https://www.linkedin.com/company/qualcomm",
+      "location": "Markham, Ontario, Canada",
+      "date": "2026-10-04",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-ai-processors-new-grad-to-engineer-level-at-qualcomm-4465405752"
+    },
+    {
+      "id": "4445907934",
+      "title": "Développeur.se, Développement d'applications IA / AI Applications Developer",
+      "company": "Mila - Quebec Artificial Intelligence Institute",
+      "companyUrl": "https://ca.linkedin.com/school/mila-quebec/",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-se-d%C3%A9veloppement-d-applications-ia-ai-applications-developer-at-mila-quebec-artificial-intelligence-institute-4445907934"
+    },
+    {
+      "id": "4474636489",
+      "title": "Associate Applied AI Engineer – GenAI Systems",
+      "company": "Manulife",
+      "companyUrl": "https://ca.linkedin.com/company/manulife-financial",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/associate-applied-ai-engineer-%E2%80%93-genai-systems-at-manulife-4474636489"
+    },
+    {
+      "id": "4472100123",
+      "title": "AI Developer (LLM & Agentic Systems)",
+      "company": "WSP in Canada",
+      "companyUrl": "https://ca.linkedin.com/company/wsp-in-canada",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/ai-developer-llm-agentic-systems-at-wsp-in-canada-4472100123"
+    },
+    {
+      "id": "4471996035",
+      "title": "AI Developer (LLM & Agentic Systems)",
+      "company": "WSP in Canada",
+      "companyUrl": "https://ca.linkedin.com/company/wsp-in-canada",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/ai-developer-llm-agentic-systems-at-wsp-in-canada-4471996035"
+    },
+    {
+      "id": "4470033063",
+      "title": "Senior Software Developer, AI/ML GenAI, Google Cloud AI",
+      "company": "Google",
+      "companyUrl": "https://www.linkedin.com/company/google",
+      "location": "Waterloo, Ontario, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/senior-software-developer-ai-ml-genai-google-cloud-ai-at-google-4470033063"
+    }
+  ]
+}

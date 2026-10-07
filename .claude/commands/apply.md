@@ -37,11 +37,11 @@ If the posting specifies a city, add `--city "<City>"` to narrow results. Parse 
 
 Present the evaluation to the user with:
 
-1. **Skills match** - which required/preferred skills match vs. gaps
-2. **Experience match** - how work history maps to the role
-3. **Behavioral/culture match** - how behavioral profile fits the role/company culture
-4. **Salary benchmark** - salary index for the company (if available)
-5. **Overall fit score** and recommendation (strong fit / moderate fit / weak fit)
+1. **Eligibility gates** — confirmed geography/contract, January 2027 start, authorization and mandatory qualifications; PASS/FAIL/UNKNOWN with sources.
+2. **Requirement-to-evidence matrix** — use the current CV evidence, distinguishing professional work, projects, coursework and unsupported requirements.
+3. **Hiring-fit dimensions** — technical 40%, similar responsibilities 35%, seniority/scope 15%, domain 10%; apply the framework’s caps, bands and N/A rules.
+4. **Separate preference notes** — career interest, culture evidence and optional salary benchmark; never include these in hiring-fit scores.
+5. **Recommendation** — raw/capped score, confidence, strengths, gaps and apply/clarify/skip. Conditional gates stay visible. No interview probability claim.
 
 After presenting the evaluation, ask the user:
 > "Should I proceed with drafting the CV and cover letter for this role?"
@@ -281,4 +281,4 @@ List the files written:
 
 Tell the user: "Both files are ready for your review. Open them to check the final output before compiling."
 
-Also mention: once they have actually submitted the application, `/outcome <company>` logs it in the tracker and starts the per-application record that `/setup` later uses to calibrate the fit framework.
+No application logging is required. Only if the user explicitly requests it, `/outcome <company>` can save optional feedback and submitted materials in an application folder. Do not prompt for routine logging or infer submission from generated documents.

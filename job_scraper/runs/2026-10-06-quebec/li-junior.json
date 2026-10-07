@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4454340452",
+      "title": "Data Analyst",
+      "company": "DRW",
+      "companyUrl": "https://www.linkedin.com/company/drw",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-26",
+      "url": "https://ca.linkedin.com/jobs/view/data-analyst-at-drw-4454340452"
+    },
+    {
+      "id": "4465555735",
+      "title": "Analyste en planification / Planning Analyst",
+      "company": "Lamour",
+      "companyUrl": "https://ca.linkedin.com/company/lamourgroup",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/analyste-en-planification-planning-analyst-at-lamour-4465555735"
+    },
+    {
+      "id": "4469488196",
+      "title": "Analyste livraison aux clients détaillants - Analyst - Retail",
+      "company": "NielsenIQ",
+      "companyUrl": "https://www.linkedin.com/company/nielseniq",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/analyste-livraison-aux-clients-d%C3%A9taillants-analyst-retail-at-nielseniq-4469488196"
+    },
+    {
+      "id": "4465301959",
+      "title": "Analyst, Business Intelligence (BI)",
+      "company": "Bombardier",
+      "companyUrl": "https://www.linkedin.com/company/bombardier",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-01",
+      "url": "https://ca.linkedin.com/jobs/view/analyst-business-intelligence-bi-at-bombardier-4465301959"
+    },
+    {
+      "id": "4444245269",
+      "title": "Analyst, Strategy & Business Dev. (Supply Chain, Fabricated Metal Parts)",
+      "company": "Bombardier",
+      "companyUrl": "https://www.linkedin.com/company/bombardier",
+      "location": "Dorval, Quebec, Canada",
+      "date": "2026-09-26",
+      "url": "https://ca.linkedin.com/jobs/view/analyst-strategy-business-dev-supply-chain-fabricated-metal-parts-at-bombardier-4444245269"
+    },
+    {
+      "id": "4454863659",
+      "title": "Early Careers: Junior C#/SQL Developer & Data Analytics",
+      "company": "Aon",
+      "companyUrl": "https://uk.linkedin.com/company/aon",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-26",
+      "url": "https://ca.linkedin.com/jobs/view/early-careers-junior-c%23-sql-developer-data-analytics-at-aon-4454863659"
+    },
+    {
+      "id": "4467126144",
+      "title": "Inventory data & cost analyst",
+      "company": "American Iron & Metal (AIM)",
+      "companyUrl": "https://ca.linkedin.com/company/american-iron-&-metal",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/inventory-data-cost-analyst-at-american-iron-metal-aim-4467126144"
+    },
+    {
+      "id": "4469698141",
+      "title": "Analyste en recherche marketing quantitative",
+      "company": "Ad Hoc Research",
+      "companyUrl": "https://ca.linkedin.com/company/ad-hoc-recherche",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/analyste-en-recherche-marketing-quantitative-at-ad-hoc-research-4469698141"
+    },
+    {
+      "id": "4462771124",
+      "title": "Début de carrière : Développeur junior C# et SQL, analytique de données - PSP",
+      "company": "Aon",
+      "companyUrl": "https://uk.linkedin.com/company/aon",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9but-de-carri%C3%A8re-d%C3%A9veloppeur-junior-c%23-et-sql-analytique-de-donn%C3%A9es-psp-at-aon-4462771124"
+    },
+    {
+      "id": "4429390993",
+      "title": "Actuarial Analyst",
+      "company": "Intact",
+      "companyUrl": "https://ca.linkedin.com/company/intact",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-04",
+      "url": "https://ca.linkedin.com/jobs/view/actuarial-analyst-at-intact-4429390993"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "count": 4,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "17586252",
+      "title": "Développeur, système d'intelligence d'affaires BI",
+      "company": "Familiprix Siège Social",
+      "companyUrl": "https://www.jobillico.com/voir-entreprise/familiprix-siege-social",
+      "location": "Québec - QC",
+      "date": "2026-10-05",
+      "employmentType": null,
+      "snippet": "Dans un monde de plus en plus numérique et où la quantité de données disponibles est de plus en plus grande [...]",
+      "url": "https://www.jobillico.com/fr/offre-d-emploi/familiprix-siege-social/developpeur-systeme-d-intelligence-d-affaires-bi/17586252"
+    },
+    {
+      "id": "17587101",
+      "title": "Architecte/Conseiller AI-SDLC",
+      "company": "CGI",
+      "companyUrl": "https://www.jobillico.com/voir-entreprise/cgi",
+      "location": "Québec - QC",
+      "date": "2026-10-05",
+      "employmentType": null,
+      "snippet": "Architecte/Conseiller AI-SDLC Description de poste Architecte/Conseiller AI SDLC Nous recherchons un(e) architecte TI issu(e) du développement logiciel [...]",
+      "url": "https://www.jobillico.com/fr/offre-d-emploi/cgi/architecte-conseiller-ai-sdlc/17587101"
+    },
+    {
+      "id": "17587131",
+      "title": "Parajuriste – Affaires juridiques",
+      "company": "EXFO inc",
+      "companyUrl": "https://www.jobillico.com/voir-entreprise/exfo-inc",
+      "location": "Québec - QC",
+      "date": "2026-10-05",
+      "employmentType": null,
+      "snippet": "Description du poste :Sous la supervision du Chef des affaires juridiques, vous serez le point d' [...]",
+      "url": "https://www.jobillico.com/fr/offre-d-emploi/exfo-inc/parajuriste-affaires-juridiques/17587131"
+    },
+    {
+      "id": "17500920",
+      "title": "ADMINISTRATEUR DE BASES DE DONNEES",
+      "company": "Groupe Desgagnés",
+      "companyUrl": "https://www.jobillico.com/voir-entreprise/groupe-desgagnes",
+      "location": "Québec - QC",
+      "date": "2026-10-03",
+      "employmentType": "Temps plein",
+      "snippet": "Groupe Desgagnés est un acteur reconnu du transport maritime et des services connexes qui se distingue par la qualité de ses opérations [...]",
+      "url": "https://www.jobillico.com/fr/offre-d-emploi/groupe-desgagnes/administrateur-de-bases-de-donnees/17500920"
+    }
+  ]
+}

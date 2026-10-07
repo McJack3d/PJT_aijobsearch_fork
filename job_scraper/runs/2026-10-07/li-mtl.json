@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4389427170",
+      "title": "Data Developer",
+      "company": "DRW",
+      "companyUrl": "https://www.linkedin.com/company/drw",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-02",
+      "url": "https://ca.linkedin.com/jobs/view/data-developer-at-drw-4389427170"
+    },
+    {
+      "id": "4441526942",
+      "title": "Développeur.euse de données IA Sénior",
+      "company": "Ubisoft Montréal",
+      "companyUrl": "https://ca.linkedin.com/company/ubisoft-montreal",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-26",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-euse-de-donn%C3%A9es-ia-s%C3%A9nior-at-ubisoft-montr%C3%A9al-4441526942"
+    },
+    {
+      "id": "4471677009",
+      "title": "Développeur.euse sénior, Plateforme de données ML",
+      "company": "LawZero",
+      "companyUrl": "https://ca.linkedin.com/company/lawzero",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-euse-s%C3%A9nior-plateforme-de-donn%C3%A9es-ml-at-lawzero-4471677009"
+    },
+    {
+      "id": "4471655796",
+      "title": "Développeur Senior Traitement de Données ML",
+      "company": "LawZero",
+      "companyUrl": "https://ca.linkedin.com/company/lawzero",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-senior-traitement-de-donn%C3%A9es-ml-at-lawzero-4471655796"
+    },
+    {
+      "id": "4441534579",
+      "title": "Senior AI Data Developer",
+      "company": "Ubisoft Montréal",
+      "companyUrl": "https://ca.linkedin.com/company/ubisoft-montreal",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-26",
+      "url": "https://ca.linkedin.com/jobs/view/senior-ai-data-developer-at-ubisoft-montr%C3%A9al-4441534579"
+    },
+    {
+      "id": "4259510220",
+      "title": "Member of Technical Staff, Pre-Training Data",
+      "company": "Cohere",
+      "companyUrl": "https://ca.linkedin.com/company/cohere-ai",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-27",
+      "url": "https://ca.linkedin.com/jobs/view/member-of-technical-staff-pre-training-data-at-cohere-4259510220"
+    },
+    {
+      "id": "4474636895",
+      "title": "Développeur principal / Développeuse principale de données (ingénierie des données)",
+      "company": "Intact",
+      "companyUrl": "https://ca.linkedin.com/company/intact",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-principal-d%C3%A9veloppeuse-principale-de-donn%C3%A9es-ing%C3%A9nierie-des-donn%C3%A9es-at-intact-4474636895"
+    },
+    {
+      "id": "4474946602",
+      "title": "Développeur II",
+      "company": "Hydro Québec",
+      "companyUrl": "https://ca.linkedin.com/company/hydro-quebec",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-ii-at-hydro-qu%C3%A9bec-4474946602"
+    },
+    {
+      "id": "4473738620",
+      "title": "Senior Data Engineer - Palantir Foundry (Hybrid, Canada)",
+      "company": "Unit8",
+      "companyUrl": "https://ch.linkedin.com/company/unit8",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-engineer-palantir-foundry-hybrid-canada-at-unit8-4473738620"
+    },
+    {
+      "id": "4473212898",
+      "title": "Développeur principal en ingénierie de données",
+      "company": "National Bank of Canada",
+      "companyUrl": "https://ca.linkedin.com/company/banquenationaleducanada",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-principal-en-ing%C3%A9nierie-de-donn%C3%A9es-at-national-bank-of-canada-4473212898"
+    }
+  ]
+}

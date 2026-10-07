@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4443537147",
+      "title": "Ingénieur de données junior à intermédiaire",
+      "company": "LGS, an IBM Company",
+      "companyUrl": "https://ca.linkedin.com/company/societe_conseil_groupe_lgs",
+      "location": "Ville-Marie, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-de-donn%C3%A9es-junior-%C3%A0-interm%C3%A9diaire-at-lgs-an-ibm-company-4443537147"
+    },
+    {
+      "id": "4471631559",
+      "title": "Data Engineer, Early Career - 2026 (CAN)",
+      "company": "Amazon",
+      "companyUrl": "https://www.linkedin.com/company/amazon",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-early-career-2026-can-at-amazon-4471631559"
+    },
+    {
+      "id": "4471528158",
+      "title": "Data Engineer (Early Career) (Canada)",
+      "company": "Jobright.ai",
+      "companyUrl": "https://www.linkedin.com/company/jobright-ai",
+      "location": "Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-early-career-canada-at-jobright-ai-4471528158"
+    },
+    {
+      "id": "4432024808",
+      "title": "Associate, Data Engineer",
+      "company": "BMO",
+      "companyUrl": "https://ca.linkedin.com/company/bank-of-montreal",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/associate-data-engineer-at-bmo-4432024808"
+    },
+    {
+      "id": "4473012790",
+      "title": "Data Engineer",
+      "company": "Campus4Tech",
+      "companyUrl": "https://www.linkedin.com/company/campus4tech",
+      "location": "Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-at-campus4tech-4473012790"
+    },
+    {
+      "id": "4465006089",
+      "title": "Associate, Data Analyst - New Grad, 2027 Start",
+      "company": "Capital One",
+      "companyUrl": "https://www.linkedin.com/company/capital-one",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/associate-data-analyst-new-grad-2027-start-at-capital-one-4465006089"
+    },
+    {
+      "id": "4473540707",
+      "title": "Data Engineer",
+      "company": "BMO",
+      "companyUrl": "https://ca.linkedin.com/company/bank-of-montreal",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-at-bmo-4473540707"
+    },
+    {
+      "id": "4476123009",
+      "title": "Dév. de logiciel I",
+      "company": "Bell",
+      "companyUrl": "https://ca.linkedin.com/company/bell",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9v-de-logiciel-i-at-bell-4476123009"
+    },
+    {
+      "id": "4473942909",
+      "title": "Data Engineer",
+      "company": "Mycionics Inc.",
+      "companyUrl": "https://ca.linkedin.com/company/mycionics-inc",
+      "location": "Kitchener, Ontario, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-at-mycionics-inc-4473942909"
+    },
+    {
+      "id": "4469278059",
+      "title": "2027 Graduate Program, Technology Services - Emerging AI and Data Solutions",
+      "company": "Bell",
+      "companyUrl": "https://ca.linkedin.com/company/bell",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/2027-graduate-program-technology-services-emerging-ai-and-data-solutions-at-bell-4469278059"
+    }
+  ]
+}

@@ -104,7 +104,7 @@ Read each document found in Step A1. Process subfolders in this order: `cv/`, `l
 - `job_posting.md`: role title, company, required skills, experience level, sector, role type
 - `cover_letter.tex`: opening structure, body structure, bullet style, closing, recurring phrases
 - `cv_draft.tex`: profile statement, section ordering, framing for this role type
-- `outcome.md`: status (in_progress/hired/offer_declined/rejected/no_response/interview_only), interview stages, notes. Skip `in_progress` applications for calibration — they have no final signal yet.
+- `outcome.md`: status (in_progress/hired/offer_declined/rejected/no_response/interview_only), interview stages, notes. Use only as optional interview context, never for automatic ranking calibration.
 
 After reading, proceed to Step A4 without intermediate output. The user sees a complete picture in Step A6.
 
@@ -146,7 +146,7 @@ For each skill file, compare extracted document content against the current file
 
 - **`02-behavioral-profile.md`:** Source is LinkedIn About + recommendation letters. Extract recurring themes, adjectives, phrases about how the candidate works. Add only to "Strongest Behavioral Traits", "How [Candidate] Works Best", or "Management Style Preferences" sections. Do not overwrite existing scored assessments. Always label inferred additions: *[Inferred from LinkedIn About / Reference letter - review before relying on this]*
 - **`03-writing-style.md`:** Source is `cover_letter.tex` files. Extract recurring patterns. Add as observations under "## Patterns Observed in Past Applications". Do not modify existing rules. Only add if 2+ cover letters show a genuine pattern.
-- **`04-job-evaluation.md`:** Source is `job_posting.md` + `outcome.md` pairs. If an application reached interview or offer: note role type and sector as a confirmed strong-fit signal. If 2+ applications repeat a no-response or rejection pattern: note it. Add findings under "## Calibration from Past Applications". Do not modify the existing scoring framework.
+- **`04-job-evaluation.md`:** Preserve the current CV-based gates, weights and caps. Optional application feedback is interview context only; do not calibrate ranking from outcomes or ask for routine outcome collection.
 - **`05-cv-templates.md`:** Source is `cv_draft.tex` files. Extract any profile statement that does not already appear in templates. Label with: *[Used for: <company>_<role>]*
 - **`06-cover-letter-templates.md`:** Source is `cover_letter.tex` files. Extract opening patterns, bullet structures, closing formulations. Add only what is structurally distinct from existing templates.
 - **`07-interview-prep.md`:** Source is CV bullets, LinkedIn descriptions, reference letter quotes. Identify achievements not yet covered by an existing STAR example. Do NOT draft full STAR examples. Add stubs under "## STAR Candidates (Complete Manually)":

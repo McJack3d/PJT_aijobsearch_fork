@@ -99,7 +99,7 @@ Reference letters from former managers, supervisors, or collaborators.
 
 A record of past job applications. Each subfolder is one application.
 
-You can maintain these folders by hand, or let the **`/outcome`** command do it: it records progress updates and final results conversationally, archives the submitted drafts and the posting text, keeps `outcome.md` in the format below, and updates `job_search_tracker.csv` in the same step.
+These folders are optional. If explicitly requested, `/outcome` saves feedback and confirmed submitted materials here. They are not required for search, ranking or interview preparation, and do not calibrate ranking automatically.
 
 **Subfolder naming:** `<company>_<role>` — lowercase, underscores for spaces.
 
@@ -113,7 +113,7 @@ applications/
 
 ### Files within each application folder
 
-**`job_posting.md`** — Paste the full job posting text here. Used by `/setup` to infer which skills and role types you have targeted, and to calibrate `04-job-evaluation.md`.
+**`job_posting.md`** — Paste the full job posting text here. Used as exact role context for optional interview preparation.
 
 **`cover_letter.tex`** — The cover letter you actually submitted. Used to extract writing style patterns and structure for `06-cover-letter-templates.md`.
 
@@ -141,13 +141,11 @@ What would you do differently?
 Any signal about what they valued or didn't?
 ```
 
-`in_progress` marks an application that is still open (used by `/outcome` for interview-stage updates before a resolution). `/setup`'s calibration draws conclusions only from applications with a final status.
+`in_progress` marks an application that is still open (used by `/outcome` for interview-stage updates before a resolution). Optional feedback is not used to calibrate ranking.
 
 Application folders may also contain **`interview_prep_<stage>.md`** files written by `/interview` (one per interview stage, kept as history). `/setup` reads only the four files named above and ignores these.
 
 **What `/setup` learns from outcome.md:**
-- Which role types and companies have led to interviews (signals strong fit areas)
-- Which applications did not progress (informs the experience match calibration in `04-job-evaluation.md`)
 - Interview feedback, if you recorded it, can surface new STAR candidates
 
 ---

@@ -1,0 +1,15 @@
+{
+  "id": "4471556139",
+  "title": "Ingénieur de données",
+  "company": "Iceberg Finance",
+  "companyUrl": "https://ca.linkedin.com/company/icebergfinance",
+  "location": "Québec, Quebec, Canada",
+  "date": null,
+  "url": "https://www.linkedin.com/jobs/view/4471556139",
+  "description": "À propos du rôle Iceberg Finance est en pleine transformation : nous migrons l'ensemble de notre plateforme de données vers Microsoft Fabric et bâtissons nos solutions analytiques modernes à partir de zéro. Nous recherchons un(e) développeur(euse) BI polyvalent(e) pour joindre notre équipe de données et contribuer à façonner cette nouvelle plateforme. Ce n'est pas un rôle de maintenance. Vous concevrez de vrais pipelines, bâtirez des modèles sémantiques réellement utilisés par les équipes d'affaires et livrerez des solutions Power BI qui orientent les décisions stratégiques et opérationnelles. Vous travaillerez avec SQL, Python, Spark et Power BI au sein d'une petite équipe agile où vos idées ont un impact direct. Votre impact Bâtir la plateforme Bâtir des processus ETL/ELT fiables Modéliser pour la performance Livrer des insights qui comptent Automatiser et industrialiser Collaborer et documenter Ce que nous cherchons Expérience : 3 ans et plus en développement BI, en intégration de données ou en ingénierie de données. Fabric ou écosystème de données Azure : Expérience pratique de Microsoft Fabric (ou solide expérience Azure Synapse/Data Factory avec la volonté de maîtriser Fabric rapidement). Maîtrise de Power BI : DAX avancé, Power Query (M), conception de modèles sémantiques et optimisation des performances. Compétences techniques clés : Solide maîtrise de SQL et bonne aisance en Python; expérience avec Spark pour la transformation de données. Discipline d'ingénierie : À l'aise avec Git, les revues de code et les flux de travail CI/CD modernes. Profil recherché : Une personne curieuse, structurée et autonome, axée sur la résolution de problèmes, qui prend en charge ses dossiers. Langues : Capacité à communiquer efficacement en français et en anglais (notre documentation et nos parties prenantes sont bilingues). Atouts Expérience avec Azure DevOps. Expérience dans le secteur de la finance, du crédit, du prêt ou des technologies financières. Connaissance de la gouvernance des données et de la conformité en matière de vie privée. Expérience avec Power BI Embedded, la sécurité au niveau des lignes (RLS) ou l'automatisation de rapports. Connaissance de la modélisation Data Vault ou dimensionnelle (Kimball). Ce que nous offrons Une journée de télétravail par semaine après la période de probation, et un vrai équilibre travail-vie personnelle. Un environnement technique en construction : pile moderne et vraies décisions d'architecture. Une petite équipe de données expérimentée où l'apprentissage est rapide et où votre travail est visible auprès de la direction. Salaire compétitif, assurances collectives et soutien au développement professionnel.",
+  "seniority": "Not Applicable",
+  "employmentType": "Full-time",
+  "jobFunction": null,
+  "industries": "Financial Services",
+  "applyUrl": null
+}

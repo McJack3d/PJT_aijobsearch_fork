@@ -1,30 +1,25 @@
 # Search Queries for Job Scraper
 
-<!-- Populated by /setup for Alexandre Bredillot. Target roles: Data Scientist, AI/ML Engineer & AI strategy, Data Engineer. -->
+<!-- Populated by /setup for Alexandre Bredillot. Current evidence targets: Data & AI Product Developer, Data/Analytics Engineer, applied AI integration, analytics/BI; junior data science where supported. -->
 <!-- NOTE: The bundled Danish CLI scrapers (jobindex/jobnet/jobbank/jobdanmark) are NOT used for this profile. Search is driven by the LinkedIn/Google site-search queries below. -->
 
-## Geography (three parallel tracks)
+## Geography (VIE-first worldwide, Canada second)
 
-1. **France (base):** Paris / Île-de-France, plus remote-in-France.
-2. **VIE (Volontariat International en Entreprise):** North America, Asian hubs (e.g. Singapore, Hong Kong, Tokyo), or Portugal (Lisbon/Porto). VIE is a French/EEA program for under-28s — search the official portal plus company VIE listings.
-3. **Montreal, Canada:** full-time regular (permanent) positions.
+1. **VIE (Volontariat International en Entreprise) — PRIMARY, WORLDWIDE:** any country, no geographic restriction. Search the official Business France portal first, then company VIE listings.
+2. **Canada — SECONDARY:** Local contracts in Canada only, Québec preferred, starting January 2027.
+3. **France / Paris / Île-de-France — NOT TARGETED.** Exclude French-based non-VIE roles. (A VIE posted by a French company for an overseas mission still counts as track 1.)
 
 ## Search Sites
 
-**France:**
-- **linkedin.com/jobs** — filter: France / Île-de-France
-- **welcometothejungle.com** — strong for tech/data roles in France
-- **apec.fr** — cadres (professional/graduate) roles
-- **fr.indeed.com**
-- **choosemycompany.com / glassdoor.fr** — for company research
-
-**VIE:**
+**VIE (primary, worldwide):**
 - **mon-vie-via.businessfrance.fr** — official VIE/VIA portal (primary source)
 - **linkedin.com/jobs** — query `"VIE" data` filtered to the target countries
 - Company career pages of large French groups that post VIE roles (L'Oréal, TotalEnergies, BNP Paribas, Schneider Electric, Dassault Systèmes, Capgemini, etc.)
+- **JobTeaser (EDHEC Career Centre)** — SSO-gated, no CLI skill; browse manually and filter to the "International Graduate Business Placements (VIE)" contract type
 
-**Montreal / Canada:**
+**Canada (secondary):**
 - **linkedin.com/jobs** — filter: Montréal, QC / Canada
+- **jobillico.com** — CLI skill available (`jobillico-search`)
 - **ca.indeed.com**, **jobboom.com**, **quebecemploi**
 - Company career pages (Shopify, CGI, Coveo, Element AI/ServiceNow, banks, gaming/AI studios)
 
@@ -32,60 +27,35 @@
 
 ## Query Categories
 
-Queries grouped by priority. Combine each with the relevant location term for the track being searched (`Paris`, `"Île-de-France"`, `Montréal`, or the VIE country).
+Use latest CV evidence; titles are discovery terms, never fit scores. Search VIE worldwide first; local contracts in Canada second, Québec preferred. January 2027 availability is confirmed. Verify the actual VIE contract and start date in each full posting.
 
-### Priority 1: Data Scientist / Applied ML
+### Priority 1: Data and AI product development
 
-```
-site:linkedin.com/jobs "Data Scientist" Paris
-site:linkedin.com/jobs "Machine Learning Engineer" "Île-de-France"
-site:welcometothejungle.com "Data Scientist" Paris
-site:apec.fr "Data Scientist" OR "Machine Learning"
-"VIE" ("Data Scientist" OR "Data Analyst") site:mon-vie-via.businessfrance.fr
-site:linkedin.com/jobs "Data Scientist" Montréal
-```
+Search `"VIE" ("data product" OR "AI developer" OR "développeur IA")`, and Canadian local roles with `"data product developer"`, `"AI integration"`, `"LLM" "tool calling"`, `"développeur IA"`. Focus on integration/delivery requirements, not research titles.
 
-### Priority 2: AI / ML Engineer & AI strategy
+### Priority 2: Data engineering and analytics engineering
 
-```
-site:linkedin.com/jobs "AI Engineer" OR "ML Engineer" Paris
-site:welcometothejungle.com ("AI Engineer" OR "MLOps" OR "LLM") Paris
-site:linkedin.com/jobs "AI strategy" OR "AI consultant" France
-"VIE" ("AI" OR "Machine Learning" OR "Data") Singapore OR "Hong Kong" OR Lisbon OR Montreal
-site:linkedin.com/jobs "Machine Learning" OR "Applied Scientist" Montréal
-```
+Search `"VIE" ("data engineer" OR "BigQuery")`, and Canadian local roles with `"junior data engineer"`, `"analytics engineer" "BigQuery"`, `"ingénieur données" "GCP"`.
 
-### Priority 3: Data Engineer / Data Governance / BI
+### Priority 3: Analytics, BI and data quality
 
-```
-site:linkedin.com/jobs "Data Engineer" Paris
-site:linkedin.com/jobs ("Analytics Engineer" OR "BigQuery" OR "Dataiku") "Île-de-France"
-site:welcometothejungle.com ("Data Engineer" OR "Data Governance") Paris
-"VIE" ("Data Engineer" OR "Data Analyst" OR "BI") site:mon-vie-via.businessfrance.fr
-site:linkedin.com/jobs "Data Engineer" OR "BI Analyst" Montréal
-```
+Search `"VIE" ("data analyst" OR "BI" OR "data quality")`, and Canadian local roles with `"data analyst" "SQL"`, `"analyste de données"`, `"qualité des données"`. Prefer building/automation responsibilities when supported by the posting.
 
-### Priority 4: Domain-flavored (finance / quant / payments)
+### Priority 4: Junior applied data science
 
-```
-site:linkedin.com/jobs ("Quantitative" OR "Quant") "Data" Paris
-site:linkedin.com/jobs ("Data Scientist" OR "Data Analyst") ("payments" OR "fintech" OR "banking") Paris
-site:linkedin.com/jobs "Data" ("finance" OR "trading" OR "risk") Montréal
-site:welcometothejungle.com "Data" fintech Paris
-```
+Search `"VIE" "data scientist"`, `"junior data scientist"`, `"scientifique de données junior"`. Compare professional versus academic requirements carefully; do not inflate fit from a matching title.
 
 ## Distinctive Search Terms
 
-Use these to sharpen queries (from the profile): `FinBERT`, `LSTM`, `SHAP`, `QlikSense`, `Dataiku`, `BigQuery`, `Power BI`, `SEPA`, `PSD2`, `PyTorch`, `time-series forecasting`, `data governance`, `data quality`.
+Use current evidence terms: `BigQuery`, `SQL`, `Cloud Run`, `GCP`, `LLM integration`, `tool calling`, `prompt design`, `data contracts`, `row-level security`, `CI/CD`, `Power BI`, `QlikSense`, `Dataiku`, `SEPA`, `PSD2`.
 
 ## Location Filter
 
-When evaluating results, keep only jobs that fall into one of the three tracks:
-- **Ideal:** Paris / Île-de-France (on-site or hybrid); remote-in-France.
-- **Ideal:** VIE roles in North America, an Asian hub, or Portugal (confirm VIE eligibility and duration).
-- **Ideal:** Montréal, QC full-time permanent (check work-authorization requirements — may need a permit / Working Holiday).
-- **Borderline:** rest of France requiring relocation, or remote-EU roles — FLAG for the user.
-- **Too far / skip:** roles outside these tracks unless strategically compelling.
+Keep only jobs in the two active tracks. VIE leads in presentation order:
+- **Ideal (primary):** VIE roles **anywhere in the world** (confirm eligibility and duration).
+- **Ideal (secondary):** local contracts in Canada — Québec preferred, other provinces accepted (check work authorization and January 2027 start).
+- **Excluded:** France-based non-VIE roles (Paris / Île-de-France included) — do not present unless the user reopens that track.
+- **Borderline:** remote roles based outside both tracks — FLAG for the user.
 
 ## Date Filter
 

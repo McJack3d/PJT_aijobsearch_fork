@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4474090143",
+      "title": "Data Engineer",
+      "company": "Rivago Infotech Inc",
+      "companyUrl": "https://www.linkedin.com/company/rivago-infotech-inc",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-at-rivago-infotech-inc-4474090143"
+    },
+    {
+      "id": "4474641170",
+      "title": "Senior Data Engineer, NimbleRx",
+      "company": "Swoop",
+      "companyUrl": "https://www.linkedin.com/company/swoop",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-engineer-nimblerx-at-swoop-4474641170"
+    },
+    {
+      "id": "4466129095",
+      "title": "Data Engineer",
+      "company": "Movable Ink",
+      "companyUrl": "https://www.linkedin.com/company/movable-ink",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-at-movable-ink-4466129095"
+    },
+    {
+      "id": "4417925098",
+      "title": "Senior Data Engineer",
+      "company": "IKO North America",
+      "companyUrl": "https://ca.linkedin.com/company/iko-north-america",
+      "location": "Mississauga, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-engineer-at-iko-north-america-4417925098"
+    },
+    {
+      "id": "4474636895",
+      "title": "Développeur principal / Développeuse principale de données (ingénierie des données)",
+      "company": "Intact",
+      "companyUrl": "https://ca.linkedin.com/company/intact",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-principal-d%C3%A9veloppeuse-principale-de-donn%C3%A9es-ing%C3%A9nierie-des-donn%C3%A9es-at-intact-4474636895"
+    },
+    {
+      "id": "4466581679",
+      "title": "Sr.Data Engineer",
+      "company": "ITC Infotech",
+      "companyUrl": "https://in.linkedin.com/company/itc-infotech",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/sr-data-engineer-at-itc-infotech-4466581679"
+    },
+    {
+      "id": "4474951735",
+      "title": "MongoDB Data Modeler / Data Engineer",
+      "company": "Confiar Services",
+      "companyUrl": "https://www.linkedin.com/company/confiarservices",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/mongodb-data-modeler-data-engineer-at-confiar-services-4474951735"
+    },
+    {
+      "id": "4474641698",
+      "title": "Senior Data Developer",
+      "company": "Intact",
+      "companyUrl": "https://ca.linkedin.com/company/intact",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-developer-at-intact-4474641698"
+    },
+    {
+      "id": "4476330229",
+      "title": "Senior Data Engineer (banking Domain)",
+      "company": "E-Solutions",
+      "companyUrl": "https://www.linkedin.com/company/e-solutions-global",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-engineer-banking-domain-at-e-solutions-4476330229"
+    },
+    {
+      "id": "4475102002",
+      "title": "Senior Data Engineer || Ottawa/Toronto || Local only",
+      "company": "TestingXperts",
+      "companyUrl": "https://www.linkedin.com/company/testingxperts",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-engineer-ottawa-toronto-local-only-at-testingxperts-4475102002"
+    }
+  ]
+}

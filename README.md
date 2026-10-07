@@ -121,11 +121,11 @@ This runs the full workflow: evaluate fit, draft CV + cover letter, review with 
 
 `/setup`, `/scrape`, and `/apply` form the core workflow. Seven more commands extend it once your profile is in place:
 
-- **`/interview`** preps you for a scheduled interview on a tracked application. It builds a stage-specific prep pack from the application's archive (the exact posting, the CV and cover letter the interviewer actually read, feedback recorded from earlier rounds), researches the company and interviewers with a verify-before-use rule, maps likely questions to your STAR examples, and offers a mock interview following the roleplay protocol in `07-interview-prep.md`. Gaps get honest bridge answers, never invented experience.
-- **`/outcome`** records what happened to an application - interview stages, offers, rejections, silence. It archives the submitted CV, cover letter, and posting text into `documents/applications/<company>_<role>/`, keeps `outcome.md` in the format `/setup` Path A parses, and updates the tracker. Once a few applications resolve, it points you back to `/setup` to calibrate the fit framework from what actually got interviews.
-- **`/rank`** bridges `/scrape` and `/apply`: it batch-scores all newly scraped postings against the fit framework (parallel agents fetch each posting and score the five evaluation dimensions) and returns a ranked shortlist with honest per-job strengths and gaps. Deal-breakers veto, deadlines get urgency flags, dead postings get marked expired. Pick a number and it hands off to the full `/apply` workflow.
+- **`/interview`** preps you for a scheduled interview for a specific role. It builds a stage-specific prep pack from the application's archive (the exact posting, the CV and cover letter the interviewer actually read, feedback recorded from earlier rounds), researches the company and interviewers with a verify-before-use rule, maps likely questions to your STAR examples, and offers a mock interview following the roleplay protocol in `07-interview-prep.md`. Gaps get honest bridge answers, never invented experience.
+- **`/outcome`** optionally saves user-requested feedback and confirmed submitted materials. No routine application logging or outcome-based ranking is required.
+- **`/rank`** bridges `/scrape` and `/apply`: it batch-scores all newly scraped postings against the fit framework (full postings are scored against current CV evidence, eligibility gates and four hiring-fit dimensions) and returns a ranked shortlist with honest per-job strengths and gaps. Deal-breakers veto, deadlines get urgency flags, dead postings get marked expired. Pick a number and it hands off to the full `/apply` workflow.
 - **`/expand`** enriches your profile by scanning public sources you've already linked in it (GitHub repos, portfolio site, Kaggle, Google Scholar) and looking up syllabi for named courses and certifications. Discovered competencies are added to your profile with a source tag. Useful right after `/setup` to surface skills that documents alone don't make explicit.
-- **`/upskill`** analyzes the gap between your profile and your tracked job postings (or a single posting via `/upskill <URL>`). Produces a prioritized heatmap of skill gaps and a learning plan with web-searched study resources and time estimates. Useful for career planning between applications.
+- **`/upskill`** analyzes the gap between your profile and selected ranked job postings (or a single posting via `/upskill <URL>`). Produces a prioritized heatmap of skill gaps and a learning plan with web-searched study resources and time estimates. Useful for career planning between applications.
 - **`/add-template`** registers your own LaTeX CV or cover letter template in place of the stock ones. It captures the template's instructions (compile engine, fonts, style rules, page limit), runs a mandatory test compile, and wires the template into `/apply`. See [LaTeX templates](#latex-templates) below.
 - **`/add-portal`** generates a job-portal search skill for a job board in your market. It investigates the portal (search URL pattern, result structure, access rules), scaffolds the CLI skill from the same structure as the shipped ones, and test-runs a live query before registering. See [Job search tools](#job-search-tools) below.
 
@@ -189,7 +189,6 @@ ai-job-search/
 │   └── README_SALARY_TOOL.md          # Salary tool setup instructions
 ├── job_scraper/                       # Scraper state (seen jobs, results)
 ├── upskill/                           # /upskill report output (markdown reports per run)
-├── job_search_tracker.csv             # Application tracking spreadsheet
 └── SETUP.md                           # Detailed setup guide
 ```
 
@@ -321,3 +320,11 @@ Thinking about a PR? Read [CONTRIBUTING.md](CONTRIBUTING.md) first - it explains
 ## License
 
 MIT
+
+## Current personal ranking workflow
+
+The user-supplied latest CV is the evidence authority in `01-candidate-profile.md`. Ranking uses technical requirements (40%), similar responsibilities (35%), seniority/scope (15%) and domain relevance (10%). Eligibility gates and mandatory-requirement caps override the raw score. Career interest and culture remain separate notes. Targets confirmed 2026-10-07: VIE worldwide or local contracts in Canada, Québec preferred, starting January 2027.
+
+There is no application tracker. `seen_jobs.json` stores discovery/deduplication and ranking state only. `/interview` accepts a posting directly; `/upskill` uses selected ranked postings. `/outcome` is optional note-taking, never required. Old rankings are refreshed when their framework version changes.
+
+`job_scraper/auto_scrape.mjs <results.json>` imports actual CLI search results (array, `results`, or `reviewed`) as unscored candidates. It no longer replays a hard-coded job list or assigns fit from titles. No input makes no changes. Validate this importer with `node --test tests/test_job_discovery.mjs`.

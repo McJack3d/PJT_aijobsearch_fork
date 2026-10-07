@@ -1,7 +1,7 @@
 ---
 name: scrape
 description: >
-  Scrapes Danish job sites for new positions matching your profile. Deduplicates across runs.
+  Searches configured job sites for new positions matching your profile. Deduplicates across runs.
   Triggers on: job scrape, find jobs, search jobs, new jobs, job search, scrape jobs, /scrape
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash(bun --version), Bash(bun run .agents/skills/*/cli/src/cli.ts *), WebFetch, WebSearch, Agent, AskUserQuestion
 ---
@@ -12,7 +12,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash(bun --version), Bash(bun run 
 
 ## How It Works
 
-This skill searches multiple Danish job sites using targeted queries based on your profile, deduplicates against previously seen jobs and the application tracker, and presents new matches with a quick fit assessment.
+This skill searches the configured VIE and Canadian job sites using targeted queries based on your profile, deduplicates against previously seen jobs, and presents new matches with a quick fit assessment.
 
 ## Invocation
 
@@ -33,7 +33,7 @@ Optional arguments:
 ### Step 0: Load State
 
 1. Read `job_scraper/seen_jobs.json` (create if missing - start with `{"seen": {}}`)
-2. Read `job_search_tracker.csv` to extract already-applied companies+roles
+2. Read current CV evidence in `../job-application-assistant/01-candidate-profile.md` and the gates in `../job-application-assistant/04-job-evaluation.md`.
 3. Read `search-queries.md` (this directory) for the search strategy
 
 ### Step 1: Search
@@ -54,7 +54,7 @@ If this fails (bun not installed), skip to **1c (WebSearch fallback)** for all p
 
 Discover all installed portal CLI skills by reading every `SKILL.md` found under `.agents/skills/*/SKILL.md`. Each file documents that portal's exact CLI flags and usage examples. **Use each portal's own documented interface — do not guess flags.** This approach automatically includes any new portals added via `/add-portal` without requiring changes to this file.
 
-For each installed portal skill:
+For each installed portal skill relevant to the configured markets (do not search Danish or France-only portals for this profile):
 
 1. Read its `SKILL.md` to find the correct `bun run …` invocation and supported flags.
 2. Translate the query terms from `search-queries.md` into that portal's flag format (e.g. `--key`, `--search-string`, `--query`, filter codes — whatever the portal's SKILL.md specifies).
@@ -79,21 +79,18 @@ Use the site-specific query strings from `search-queries.md` directly as WebSear
 
 For each promising result from Step 1:
 - Use `WebFetch` to retrieve the job posting page
-- Extract: **job title**, **company**, **location**, **posting date** (or "recent"), **URL**, **key requirements** (brief), **application deadline** (if listed)
+- Extract: **job title**, **company**, **location**, **posting date** (or "unknown"), **URL**, **key requirements** (brief), **application deadline** (if listed)
 - Skip if the URL or company+title combo already exists in `seen_jobs.json`
-- Skip if the company+role already appears in `job_search_tracker.csv`
 
 ### Step 3: Quick Fit Assessment
 
-For each new job, do a rapid fit check (NOT the full evaluation from `04-job-evaluation.md` - just a quick signal):
+Use the full fetched description and current CV evidence. Apply the eligibility gates first: VIE worldwide or Canadian local contracts (Québec preferred), January 2027 start, and explicit authorization/qualification requirements. Unknown is conditional; failure is excluded.
 
-- **High match**: Role directly involves your core skills
-- **Medium match**: Role is adjacent to your experience
-- **Low match**: Role requires significant skills you lack
+Label discovery results **needs evaluation**, **conditional**, or **excluded**, with a concrete evidence note. Do not assign high/medium/low fit from titles. A senior title needs requirement inspection. Numerical scores and ranked shortlists use `/rank` and its shared evidence framework. A blocked page is unavailable, not expired.
 
 ### Step 4: Deduplicate & Store
 
-1. Add ALL fetched jobs (new and skipped) to `seen_jobs.json` with structure:
+1. Add new fetched jobs; preserve existing records and their ranking fields. Do not overwrite a ranked entry during discovery. Store new jobs in `seen_jobs.json` with structure:
 ```json
 {
   "seen": {
@@ -102,33 +99,18 @@ For each new job, do a rapid fit check (NOT the full evaluation from `04-job-eva
       "company": "...",
       "url": "...",
       "first_seen": "YYYY-MM-DD",
-      "fit": "high/medium/low",
-      "status": "new/skipped/evaluated/ranked/expired"
+      "fit": "needs_evaluation",
+      "fit_notes": "current CV evidence and unresolved gates",
+      "status": "new/skipped/evaluated/ranked/expired/unavailable/excluded"
     }
   }
 }
 ```
-2. Only present jobs NOT already in the seen list or tracker.
+2. Only present jobs NOT already in the seen list.
 
 ### Step 5: Present Results
 
-Present new jobs in a table sorted by fit (high first):
-
-```
-## New Job Matches - YYYY-MM-DD
-
-Found X new positions (Y high, Z medium, W low match).
-
-| # | Fit | Title | Company | Location | Deadline | URL |
-|---|-----|-------|---------|----------|----------|-----|
-| 1 | High | ... | ... | ... | ... | [Link](...) |
-
-### High-Match Highlights
-For each high-match job, add 2-3 bullet points:
-- Why it matches your profile
-- Key requirements to check
-- Any red flags
-```
+Present separate VIE and Canadian local-contract tables (Québec first within Canada). Columns: title, company, location, deadline, URL, evidence note, unresolved gate. Show confirmed exclusions separately. State that these are discovery results awaiting `/rank`, not scored matches.
 
 After presenting, ask:
 > "Want me to evaluate any of these in detail? Just give me the number(s)."
@@ -137,17 +119,11 @@ If the user picks a number, invoke the **job-application-assistant** skill workf
 
 If the run found many new jobs (roughly 8+), also suggest `/rank` - it batch-scores all new postings against the full fit framework and returns a ranked shortlist, which beats eyeballing a long table. (`/rank` sets the `ranked` and `expired` status values in `seen_jobs.json`; treat both as already-seen for dedup purposes.)
 
-### Step 6: Update Tracker (Optional)
-
-If the user decides to apply to any job, add a row to `job_search_tracker.csv`.
-
----
-
 ## Important Rules
 
 1. **Never fabricate job postings.** Only present jobs found via actual WebSearch/WebFetch results.
-2. **Respect deduplication.** Always check seen_jobs.json AND job_search_tracker.csv before presenting.
-3. **Focus on configured geographic area.** Skip jobs that require relocation or are clearly outside commute range.
+2. **Respect deduplication.** Check seen_jobs.json before presenting; discovery state is not application history.
+3. **Focus on configured geographic area.** Follow VIE worldwide / Canadian local contracts only, Québec preferred; relocation is allowed. Confirm January 2027 compatibility.
 4. **Only open positions.** Skip postings with expired deadlines or those marked as closed.
 5. **Be efficient with WebFetch.** Don't fetch every search result - use titles and snippets to pre-filter before fetching.
 6. **Parallel searches.** Use the Agent tool or parallel WebSearch calls to speed up the search phase.

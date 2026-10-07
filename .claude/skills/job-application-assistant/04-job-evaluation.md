@@ -1,175 +1,101 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
+Version: cv-2026-10-07-v1. Goal: prioritise roles with a defensible interview case using the latest CV. A score measures evidence alignment, not an interview probability. Use this same rubric in `/scrape`, `/rank` and `/apply`.
 
-## Scoring Dimensions
+## 1. Evidence authority
 
-Evaluate each job posting against these five dimensions:
+Read **Current ranking evidence** in `01-candidate-profile.md`, sourced from `documents/cv/CV_Alexandre_Bredillot_EN.docx`. Separate professional work, independent projects, coursework and skills-list claims. Do not count omitted historical projects without explicit user direction. Do not infer years, advanced proficiency, quantified impact, sole ownership or unlisted technologies.
 
-### 1. Technical Skills Match (0-100)
-How well do the required/preferred skills align with the candidate's capabilities?
+Strong current evidence: data-product development; BigQuery SQL/models/stored procedures/optimisation; GCP Cloud Run application delivery; LLM integration and tool calling; data quality/contracts/row-level security; production operations/CI/CD; payments analytics and stakeholder coordination.
 
-| Score | Meaning |
-|-------|---------|
-| 80-100 | Core requirements are primary skills |
-| 60-79 | Most requirements match, 1-2 gaps that are learnable |
-| 40-59 | Partial match, significant upskilling needed |
-| 0-39 | Fundamental mismatch |
+Role families to explore (not automatic scores):
+- Data & AI Product Developer / technical data-product roles.
+- Junior Data Engineer / Analytics Engineer, especially BigQuery/GCP.
+- Applied AI / AI integration roles centred on LLM applications and tools.
+- Data Analyst / BI roles with engineering, automation or product ownership.
+- Junior Data Scientist where academic ML meets the actual requirements. Model research, deep MLOps and senior leadership need evidence not established by this CV.
 
-**Strong match areas:** Python (Pandas, NumPy, scikit-learn, PyTorch, Keras), SQL/BigQuery, BI (Power BI, QlikSense, Dataiku, Tableau), applied ML & NLP (LSTM, FinBERT, SHAP), time-series forecasting, data quality & governance, financial/payment data
-**Moderate match areas:** data engineering & production pipelines, GCP/cloud, Docker & deployment/MLOps, algorithmic/quant finance, software engineering (JS/Java basics)
-**Weak match areas:** senior/lead-level ownership, large-scale distributed systems, non-Python production stacks, deep MLOps at scale
+## 2. Eligibility and feasibility gates
 
-### 2. Experience Match (0-100)
-Does work history align with what they're looking for?
+For each gate output PASS, FAIL or UNKNOWN, an explicit reason and source:
+- Geography/contract: user-confirmed preference (2026-10-07) is VIE worldwide first, local contracts in Canada second (Québec preferred); all other contracts/geographies excluded. Verify VIE contract from the posting, not a search query or French employer name.
+- Availability: user-confirmed start date is January 2027 (confirmed 2026-10-07). An explicitly incompatible mandatory start date fails; unstated timing is unknown.
+- Work authorization, sponsorship and VIE eligibility: unknown unless confirmed. Never infer from French language, location or mobility. Check official current requirements when needed; do not invent legal rules.
+- Mandatory language, qualification, certification or clearance: compare literal requirement to evidence. Degree dates alone do not prove completion.
+- Posting status: explicit closure or past deadline means expired. Blocked access, missing text or a login wall means unavailable, not expired.
 
-| Score | Meaning |
-|-------|---------|
-| 80-100 | Direct experience in the same domain and role type |
-| 60-79 | Related experience, transferable skills clear |
-| 40-59 | Adjacent experience, would need to make the case |
-| 0-39 | Unrelated experience |
+Any confirmed FAIL excludes the role regardless of score. UNKNOWN stays visible in a **conditional shortlist** with the precise question to resolve; it never becomes an assumed pass. Missing full posting means no numerical score. Explicit mandatory experience/seniority mismatches use the seniority rule below.
 
-**Strong:** data analytics & BI dashboarding, financial services / payments (SEPA/PSD2), data quality & governance, cross-functional data-product delivery
-**Moderate:** data engineering, applied ML/NLP, B2B commerce / BeautyTech data, quantitative finance
-**Entry-level:** senior IC / lead roles, pure research data science, large-scale ML platform engineering
+## 3. Requirement-to-evidence matrix
 
-### 3. Behavioral/Culture Fit (0-100)
-Does the role and company culture match the behavioral profile?
+Extract non-duplicated requirements/responsibilities from the full posting. Separate essential from preferred; do not invent a requirement because it commonly appears in similar roles. Allocate each requirement to one dimension only, avoiding duplicate credit for synonyms.
 
-| Score | Meaning |
-|-------|---------|
-| 80-100 | Culture strongly matches behavioral preferences |
-| 60-79 | Mixed signals but mostly compatible |
-| 40-59 | Some friction areas |
-| 0-39 | Significant culture mismatch |
+| Requirement and posting quote | Essential/preferred | Dimension | Latest-CV evidence | Evidence level | Gap/question |
+|---|---|---|---|---|---|
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+Credit per requirement:
+- **1.00:** directly demonstrated in professional work, or explicitly matched credential/language. If the role explicitly accepts project/coursework evidence, directly relevant evidence of that kind can earn 1.00 too; label it honestly.
+- **0.75:** directly demonstrated in an independent project, or closely transferable professional work with a concrete explanation of the difference.
+- **0.50:** relevant coursework or listed skill without demonstrated application.
+- **0.25:** weak/partial adjacent evidence with a stated limitation.
+- **0.00:** no supporting evidence. Say “not evidenced”, not “cannot do”.
 
-### 4. Location & Logistics (Pass/Fail + Notes)
-- Paris / Île-de-France (commutable): PASS
-- Remote or hybrid: PASS
-- VIE in North America, an Asian hub, or Portugal: PASS (actively targeted)
-- Full-time in Montreal, Canada: PASS (actively targeted)
-- Relocation to a geography outside those targets: FLAG (discuss with user, not an automatic fail)
-- Frequent international travel: PASS (acceptable)
+Weight essential requirements 2 and preferred requirements 1. Each dimension = 100 × sum(requirement weight × credit) / sum(requirement weights). Round the final overall score only. If the posting provides no criteria for a dimension, mark N/A and renormalise the remaining dimension weights; report this. If core technical requirements or responsibilities are too vague to assess, do not score; request fuller text.
 
-### 5. Career Alignment & Motivation (0-100)
-Does this role advance career goals and contain tasks that energize?
+## 4. Hiring-fit score
 
-| Score | Meaning |
-|-------|---------|
-| 80-100 | Strongly aligned with career direction, clear growth path |
-| 60-79 | Good role but only partially aligned with long-term goals |
-| 40-59 | Decent job but doesn't build toward career goals |
-| 0-39 | Dead end or backwards step |
+| Dimension | Weight | What it measures |
+|---|---:|---|
+| Technical requirements | 40% | Demonstrated tools, methods and technical capabilities |
+| Similar responsibilities | 35% | Evidence of doing the tasks and delivering the required outcomes |
+| Seniority and scope | 15% | Actual tenure, independence, architecture/leadership expectations |
+| Domain relevance | 10% | Relevant payments, commerce or other explicitly required domain knowledge |
 
-**Career goals:**
-- Grow into a Data Scientist / AI-ML Engineer / Data Engineer role, ideally applying AI to finance, commerce, or industry
-- Build toward AI strategy and data governance responsibility over time
-- Leverage a distinctive finance + data profile (quant/algorithmic ML, payments, BI) rather than being pigeonholed as a pure analyst
+For seniority, evaluate explicit requirements with the same credit scale. Compute tenure from actual month ranges at evaluation time, count overlapping months once, and distinguish internships from experience requirements that exclude them. Never count projected future months. A “senior” title triggers scrutiny, not an automatic pass or fail. An explicit mandatory tenure/leadership requirement not supported by the CV caps the final score at **59** and verdict at **Stretch**; if explicitly non-negotiable and demonstrably unmet, exclude as FAIL. Missing mandatory technical evidence also caps the score at 59 (or excludes if the employer explicitly states a non-negotiable credential/capability condition). Always show raw score, any cap and its reason.
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: building end-to-end data products and pipelines, applied ML/NLP, quantitative/financial modeling, automation, turning messy data into actionable business insight
-- Tasks that drain: *[inferred — confirm]* purely manual/repetitive reporting with no automation, rigid bureaucratic process with no room to build
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+Bands after caps:
+- **80–100 Strong:** prioritise, provided gates pass.
+- **65–79 Good:** credible application, address specific gaps.
+- **50–64 Stretch:** selective effort; explain what would need to convince the employer.
+- **0–49 Low:** deprioritise.
 
-**Life situation alignment:** Consider personal constraints:
-- **Security**: early-career, seeking a stable long-term position starting January 2027 (post-MSc, post-L'Oréal internship)
-- **Flexibility**: open to relocation — France (Paris), VIE roles in North America / Asian hubs / Portugal, or full-time in Montreal
-- **Professional development**: high priority — wants strong technical mentorship and exposure to senior data/AI decision-making
+A gated failure is **Excluded**, not Strong. Unknown gates make any band **Conditional**. These are decision aids, not calibrated probabilities.
 
-### 6. Salary Benchmark (Optional)
+## 5. Preference and confidence (unweighted)
 
-If the salary lookup tool is configured (`salary_data.json` exists), look up the company:
-```
-python salary_lookup.py "<Company Name>" --json
-```
+- Career interest: high / medium / low / unknown, grounded in saved or current user preferences.
+- Culture: confirmed observations or unknown. Marketing language is not evidence of a personal fit.
+- Confidence: high / medium / low, with reasons about posting completeness and evidence specificity. This describes evidence quality, not confidence of being hired.
+- Salary: optional benchmark only; do not infer a salary floor or score salary without a user preference.
 
-If a city is known from the posting, add `--city "<City>"` to narrow results.
+Ranking order: show eligible and conditional lists separately; within each show VIE first, Canadian local contracts second. Within Canada, show Québec and other provinces as explicit subgroups (Québec preferred). Sort within each subgroup by capped hiring-fit score descending, then confidence, then upcoming deadline, then newest verified posting date. Unknown dates go last in date ties. Show excluded/unavailable jobs separately with reasons. Never promote a low-fit VIE over a strong Canada role without making the track grouping explicit.
 
-Present findings as:
-```
-### Salary Benchmark
-| Metric | Value |
-|--------|-------|
-| [Category] index | XX.X (+/-X.X% vs baseline) |
-| Overall index | XX.X (+/-X.X% vs baseline) |
-```
+## 6. Evaluation output
 
-Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
+Present role/company/link, source date, role family and the gate table. Then show the requirement matrix, dimension scores, raw/capped overall score, band, confidence, separate preference notes, top three strengths, material gaps and a concrete apply/clarify/skip recommendation. For triage the matrix may be compact, but keep the underlying evidence in ranking state.
 
-If the salary tool is not configured, skip this section.
+### One worked example (hypothetical, not a live vacancy)
 
-## Output Format
+Assume a junior commerce-data/AI developer local contract in Montréal starting January 2027. The employer accepts early-career candidates and asks for the requirements below. Authorization is not yet confirmed.
 
-Present the evaluation as:
+| Requirement | Dimension | Weight | Credit | Evidence |
+|---|---|---:|---:|---|
+| BigQuery SQL/model development (essential) | Technical | 2 | 1.00 | L’Oréal models, SQL and stored procedures |
+| LLM tool integration (essential) | Technical | 2 | 1.00 | In-app assistant and eight tools |
+| Airflow (preferred) | Technical | 1 | 0.00 | Not evidenced in latest CV |
+| Deliver a business-facing data product (essential) | Responsibilities | 2 | 1.00 | Co-developed commerce webapp |
+| Coordinate stakeholders and maintain operations (essential) | Responsibilities | 2 | 1.00 | Main contact, delivery and production operations |
+| Own features with engineering support; no minimum years (essential) | Seniority/scope | 2 | 1.00 | Own assistant/features, co-development with full-stack developer |
+| Commerce data experience (preferred) | Domain | 1 | 1.00 | Global Commerce Data Domain |
 
-```
-## Job Fit Evaluation: [Role] at [Company]
+Technical = 100 × 4/5 = 80; responsibilities = 100; seniority/scope = 100; domain = 100. Overall = 0.40×80 + 0.35×100 + 0.15×100 + 0.10×100 = **92/100**. No cap: the unsupported tool is preferred, not mandatory. This is **Conditional Strong** because authorization is unresolved. The seniority score measures this junior role's stated scope, not senior-level capability. Career interest is high based on the CV’s business-focused AI positioning; company culture is unknown and adds no points.
 
-| Dimension | Score | Notes |
-|-----------|-------|-------|
-| Technical Skills | XX/100 | [brief note] |
-| Experience Match | XX/100 | [brief note] |
-| Behavioral Fit | XX/100 | [brief note] |
-| Location | PASS/FAIL | [brief note] |
-| Career Alignment | XX/100 | [brief note] |
+If the posting instead requires five years of production experience, the seniority dimension must be rescored and the 59-point cap applies (or exclude if explicitly non-negotiable). Technical overlap cannot override that mismatch.
 
-**Overall Score: XX/100** (weighted average of scored dimensions)
+## Company Research Checklist
 
-### Verdict: [Strong Fit / Good Fit / Moderate Fit / Weak Fit / Poor Fit]
+For `/apply` and `/interview`, verify company products, team and role context from primary sources; distinguish company statements from independent evidence. Research named contacts only using public professional information. Record uncertainty. Triage needs no company research.
 
-### Key Strengths for This Role
-- [bullet points]
+## Employer questions
 
-### Gaps to Address
-- [bullet points]
-
-### Recommendation
-[1-2 sentences: apply/skip/apply with caveats]
-
-### Company Research Checklist
-- [ ] Checked company website (mission, values, recent news)
-- [ ] Checked review sites (Glassdoor, Jobindex, etc.)
-- [ ] Checked LinkedIn for team size, recent hires, connections
-- [ ] Checked media for restructuring, growth, or workplace issues
-- [ ] Identified network contacts who may know the team/manager
-```
-
-## Weighting
-- Technical Skills: 30%
-- Experience Match: 25%
-- Behavioral Fit: 15%
-- Career Alignment: 30%
-
-(Location is pass/fail, not weighted)
-
-## Thresholds
-- **Strong Fit** (75+): Definitely apply, tailor everything
-- **Good Fit** (60-74): Apply, address gaps in cover letter
-- **Moderate Fit** (45-59): Consider carefully, discuss with user
-- **Weak Fit** (30-44): Probably skip unless strategic reasons
-- **Poor Fit** (<30): Skip
-
-## Pre-Application: Call the Employer (Best Practice)
-
-Before writing the application, consider whether the candidate should call the contact person listed in the posting. **Only call if there are substantive questions** - never call just to "be remembered."
-
-### When to Suggest Calling
-- The posting has unclear or ambiguous requirements
-- It's unclear which competencies are essential vs. nice-to-have
-- The role description is vague about day-to-day tasks
-- There's a named contact person who invites questions
-
-### Good Questions to Ask
-- "What are the primary challenges in this role?"
-- "How is time typically divided across the listed responsibilities?"
-- "Which competencies are most critical for success in this position?"
-- "What does success look like in the first 6-12 months?"
-
-### Rules for the Call
-- Prepare a 30-second "elevator pitch" about your background in case they ask
-- The call's purpose is **gathering information**, not delivering a pitch
-- Take notes - use what you learn to tailor the application
-- Reference the conversation naturally in the cover letter ("After speaking with [name], I was especially drawn to...")
+Suggest contacting the named employer contact only for a useful unanswered question: essential requirements, start-date flexibility, team responsibilities or first-six-month expectations. Prepare a brief pitch and specific questions. Never invent a conversation or contact anyone automatically.

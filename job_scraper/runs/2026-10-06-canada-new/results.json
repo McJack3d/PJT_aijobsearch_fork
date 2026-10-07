@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-06",
+  "filter": "LinkedIn last 24 hours; exclude prior history",
+  "unique_search_results": 38,
+  "reviewed": [
+    {
+      "id": "4474971944",
+      "title": "Data Analyst",
+      "company": "Veriforce",
+      "companyUrl": "https://www.linkedin.com/company/veriforce-llc",
+      "location": "Greater Montreal Metropolitan Area",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/data-analyst-at-veriforce-4474971944",
+      "first_seen": "2026-10-06",
+      "fit": "high",
+      "status": "new",
+      "source": "manual-canada-new-postings",
+      "notes": "SQL, data modeling, customer-facing analytics and production ownership align with updated CV. Sisense is a gap; comparable BI platform experience accepted. No minimum years specified.",
+      "last_verified": "2026-10-06",
+      "recency_caveat": "LinkedIn search date is 2026-10-06; original publication versus repost not independently established."
+    },
+    {
+      "id": "4476345732",
+      "title": "Data Analyst 1",
+      "company": "Pattison Food Group",
+      "companyUrl": "https://www.linkedin.com/company/pattisonfoodgroup",
+      "location": "Langley, British Columbia, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/data-analyst-1-at-pattison-food-group-4476345732",
+      "first_seen": "2026-10-06",
+      "fit": "medium",
+      "status": "new",
+      "source": "manual-canada-new-postings",
+      "notes": "SQL/Python, customer analytics, data quality and GCP familiarity align. Requires 3+ years, above current experience. CAD 75,509–94,387.",
+      "last_verified": "2026-10-06",
+      "recency_caveat": "LinkedIn search date is 2026-10-06; original publication versus repost not independently established."
+    },
+    {
+      "id": "4466129095",
+      "title": "Data Engineer",
+      "company": "Movable Ink",
+      "companyUrl": "https://www.linkedin.com/company/movable-ink",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/data-engineer-at-movable-ink-4466129095",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-canada-new-postings",
+      "notes": "Requires 3+ years and petabyte-scale OLAP, advanced ELT/orchestration and IaC; significant seniority and stack gap.",
+      "last_verified": "2026-10-06",
+      "recency_caveat": "LinkedIn search date is 2026-10-06; original publication versus repost not independently established."
+    },
+    {
+      "id": "4476321836",
+      "title": "Machine learning Engineer",
+      "company": "Wix",
+      "companyUrl": "https://il.linkedin.com/company/wix-com",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-at-wix-4476321836",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-canada-new-postings",
+      "notes": "Requires 5+ years, current Greater Vancouver residence and Canadian work authorization without sponsorship.",
+      "last_verified": "2026-10-06",
+      "recency_caveat": "LinkedIn search date is 2026-10-06; original publication versus repost not independently established."
+    },
+    {
+      "id": "4465244746",
+      "title": "Data & Information System Analyst",
+      "company": "Pomerleau",
+      "companyUrl": "https://ca.linkedin.com/company/pomerleau-inc.",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/data-information-system-analyst-at-pomerleau-4465244746",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-canada-new-postings",
+      "notes": "Requires minimum 5 years in data analysis; HR systems specialization.",
+      "last_verified": "2026-10-06",
+      "recency_caveat": "LinkedIn search date is 2026-10-06; original publication versus repost not independently established."
+    }
+  ],
+  "limitations": [
+    "LinkedIn dates may reflect reposts.",
+    "January start and sponsorship not confirmed."
+  ]
+}

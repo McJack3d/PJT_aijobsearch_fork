@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-06",
+  "scope": "Paris et périphérie; Easy Apply; dernières 24h puis 7 jours",
+  "reviews": [
+    {
+      "id": "4476341031",
+      "title": "Analytics Engineer",
+      "company": "Akuo",
+      "location": "Paris, Île-de-France, France",
+      "url": "https://www.linkedin.com/jobs/view/4476341031",
+      "first_seen": "2026-10-06",
+      "fit": "medium",
+      "status": "new",
+      "source": "manual-paris-easy-apply",
+      "notes": "Paris 8e, CDI hybride. Affichée il y a 2 heures. Candidature simplifiée observée dans LinkedIn. SQL, modélisation, Power BI, gouvernance et interlocution métier pertinents. Demande au moins 2 ans et maîtrise dbt/DAX; écarts à signaler."
+    },
+    {
+      "id": "4474724516",
+      "title": "Data Engineer",
+      "company": "Sia",
+      "location": "Paris, Île-de-France, France",
+      "url": "https://www.linkedin.com/jobs/view/4474724516",
+      "first_seen": "2026-10-06",
+      "fit": "medium",
+      "status": "new",
+      "source": "manual-paris-easy-apply",
+      "notes": "Paris. Affichée il y a 4 jours. Candidature simplifiée observée dans LinkedIn. Python, SQL, cloud et pipelines pertinents. Demande au moins 2 ans; expérience Spark/Hadoop ou TensorFlow/Torch attendue."
+    },
+    {
+      "id": "4476301806",
+      "title": "Data Analyst",
+      "company": "Infoplus Technologies UK Limited",
+      "location": "Île-de-France, France",
+      "url": "https://www.linkedin.com/jobs/view/4476301806",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-paris-easy-apply",
+      "notes": "Easy Apply confirmé, récent, mais au moins 6 ans requis."
+    },
+    {
+      "id": "4474973299",
+      "title": "Data analyst lead migration",
+      "company": "Calypse",
+      "location": "Greater Paris Metropolitan Region",
+      "url": "https://www.linkedin.com/jobs/view/4474973299",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-paris-easy-apply",
+      "notes": "Easy Apply confirmé, récent, mais au moins 5 ans en migration documentaire requis."
+    },
+    {
+      "id": "4476311366",
+      "title": "Junior Applied AI Engineer",
+      "company": "ILLUIN Technology",
+      "location": "Paris, Île-de-France, France",
+      "url": "https://www.linkedin.com/jobs/view/4476311366",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-paris-easy-apply",
+      "notes": "Intitulé junior mais description Senior et première expérience hors stage/alternance requise. Easy Apply non confirmé."
+    },
+    {
+      "id": "4472494789",
+      "title": "Founding AI Engineer",
+      "company": "IROC",
+      "location": "Paris, Île-de-France, France",
+      "url": "https://www.linkedin.com/jobs/view/4472494789",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-paris-easy-apply",
+      "notes": "Easy Apply confirmé; recherche avancée, GPU et entraînement distribué non démontrés."
+    },
+    {
+      "id": "4472306371",
+      "title": "AI ENGINEER",
+      "company": "BEYOND SKILLS",
+      "location": "Paris, Île-de-France, France",
+      "url": "https://www.linkedin.com/jobs/view/4472306371",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-paris-easy-apply",
+      "notes": "Easy Apply confirmé; 8–10 ans minimum en software engineering."
+    },
+    {
+      "id": "4442997766",
+      "title": "Data Engineer H/F",
+      "company": "Extia",
+      "location": "Sèvres, Île-de-France, France",
+      "url": "https://www.linkedin.com/jobs/view/4442997766",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-paris-easy-apply",
+      "notes": "Easy Apply confirmé; plus de 5 ans requis."
+    },
+    {
+      "id": "4472933937",
+      "title": "Data Engineer DBT, Airflow et Python",
+      "company": "Jems Group",
+      "location": "Greater Paris Metropolitan Region",
+      "url": "https://www.linkedin.com/jobs/view/4472933937",
+      "first_seen": "2026-10-06",
+      "fit": "low",
+      "status": "skipped",
+      "source": "manual-paris-easy-apply",
+      "notes": "Easy Apply confirmé; profil confirmé idéalement 5+ ans, dbt/Airflow production."
+    }
+  ],
+  "limitations": [
+    "Dates LinkedIn, republications possibles. Début janvier 2027 à confirmer."
+  ]
+}

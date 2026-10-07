@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4474636489",
+      "title": "Associate Applied AI Engineer – GenAI Systems",
+      "company": "Manulife",
+      "companyUrl": "https://ca.linkedin.com/company/manulife-financial",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/associate-applied-ai-engineer-%E2%80%93-genai-systems-at-manulife-4474636489"
+    },
+    {
+      "id": "4458540680",
+      "title": "Senior AI/ML Engineer",
+      "company": "RBC",
+      "companyUrl": "https://ca.linkedin.com/company/rbc",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/senior-ai-ml-engineer-at-rbc-4458540680"
+    },
+    {
+      "id": "4475890912",
+      "title": "Développeur(euse) IA",
+      "company": "Mirego",
+      "companyUrl": "https://ca.linkedin.com/company/mirego",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-euse-ia-at-mirego-4475890912"
+    },
+    {
+      "id": "4400605078",
+      "title": "Specialist, AI Engineering",
+      "company": "Definity",
+      "companyUrl": "https://ca.linkedin.com/company/definity-financial",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/specialist-ai-engineering-at-definity-4400605078"
+    },
+    {
+      "id": "4466466755",
+      "title": "AI Scientist & Engineer, Assurance Innovation Lab",
+      "company": "BDO Canada",
+      "companyUrl": "https://ca.linkedin.com/company/bdo-canada",
+      "location": "Edmonton, Alberta, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/ai-scientist-engineer-assurance-innovation-lab-at-bdo-canada-4466466755"
+    },
+    {
+      "id": "4476344723",
+      "title": "Senior Machine Learning Engineer, Recommendations",
+      "company": "Lyft",
+      "companyUrl": "https://www.linkedin.com/company/lyft",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/senior-machine-learning-engineer-recommendations-at-lyft-4476344723"
+    },
+    {
+      "id": "4476108218",
+      "title": "Développeur(euse) IA",
+      "company": "Mirego",
+      "companyUrl": "https://ca.linkedin.com/company/mirego",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-euse-ia-at-mirego-4476108218"
+    },
+    {
+      "id": "4466377870",
+      "title": "AI Scientist & Engineer, Assurance Innovation Lab",
+      "company": "BDO Canada",
+      "companyUrl": "https://ca.linkedin.com/company/bdo-canada",
+      "location": "Calgary, Alberta, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/ai-scientist-engineer-assurance-innovation-lab-at-bdo-canada-4466377870"
+    },
+    {
+      "id": "4476321836",
+      "title": "Machine learning Engineer",
+      "company": "Wix",
+      "companyUrl": "https://il.linkedin.com/company/wix-com",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-at-wix-4476321836"
+    },
+    {
+      "id": "4455899907",
+      "title": "Principal AI Engineer",
+      "company": "Workday",
+      "companyUrl": "https://www.linkedin.com/company/workday",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-06",
+      "url": "https://ca.linkedin.com/jobs/view/principal-ai-engineer-at-workday-4455899907"
+    }
+  ]
+}

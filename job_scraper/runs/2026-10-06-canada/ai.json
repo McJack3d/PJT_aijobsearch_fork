@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4465405752",
+      "title": "Machine Learning Engineer, AI Processors (New Grad to Engineer Level)",
+      "company": "Qualcomm",
+      "companyUrl": "https://www.linkedin.com/company/qualcomm",
+      "location": "Markham, Ontario, Canada",
+      "date": "2026-10-04",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-engineer-ai-processors-new-grad-to-engineer-level-at-qualcomm-4465405752"
+    },
+    {
+      "id": "4471534964",
+      "title": "AI Engineer, Entry Level",
+      "company": "Jobright.ai",
+      "companyUrl": "https://www.linkedin.com/company/jobright-ai",
+      "location": "Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/ai-engineer-entry-level-at-jobright-ai-4471534964"
+    },
+    {
+      "id": "4471507965",
+      "title": "AI Engineer, New Grad",
+      "company": "Jobright.ai",
+      "companyUrl": "https://www.linkedin.com/company/jobright-ai",
+      "location": "Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/ai-engineer-new-grad-at-jobright-ai-4471507965"
+    },
+    {
+      "id": "4474636489",
+      "title": "Associate Applied AI Engineer – GenAI Systems",
+      "company": "Manulife",
+      "companyUrl": "https://ca.linkedin.com/company/manulife-financial",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/associate-applied-ai-engineer-%E2%80%93-genai-systems-at-manulife-4474636489"
+    },
+    {
+      "id": "4475855695",
+      "title": "Jr. Software Engineer, AI Agent Platform",
+      "company": "Motorola Solutions",
+      "companyUrl": "https://www.linkedin.com/company/motorolasolutions",
+      "location": "Ontario, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/jr-software-engineer-ai-agent-platform-at-motorola-solutions-4475855695"
+    },
+    {
+      "id": "4470102658",
+      "title": "AI Model Training and Deployment Developer - New Grad Opportunity",
+      "company": "Flexspring",
+      "companyUrl": "https://www.linkedin.com/company/flexspring",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-25",
+      "url": "https://ca.linkedin.com/jobs/view/ai-model-training-and-deployment-developer-new-grad-opportunity-at-flexspring-4470102658"
+    },
+    {
+      "id": "4472025860",
+      "title": "[New Grad] Applied AI Engineer",
+      "company": "Ranger AI",
+      "companyUrl": "https://www.linkedin.com/company/rangerai",
+      "location": "Canada",
+      "date": "2026-09-25",
+      "url": "https://ca.linkedin.com/jobs/view/new-grad-applied-ai-engineer-at-ranger-ai-4472025860"
+    },
+    {
+      "id": "4462537804",
+      "title": "Machine Learning Developer Associate / Développeur(euse) en apprentissage automatique associé(e)",
+      "company": "IBM",
+      "companyUrl": "https://www.linkedin.com/company/ibm",
+      "location": "Calgary, Alberta, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-developer-associate-d%C3%A9veloppeur-euse-en-apprentissage-automatique-associ%C3%A9-e-at-ibm-4462537804"
+    },
+    {
+      "id": "4473240296",
+      "title": "AI Developer",
+      "company": "Cameco Corporation",
+      "companyUrl": "https://ca.linkedin.com/company/cameco-corporation",
+      "location": "Saskatoon, Saskatchewan, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/ai-developer-at-cameco-corporation-4473240296"
+    },
+    {
+      "id": "4462528880",
+      "title": "Machine Learning Developer Associate / Développeur(euse) en apprentissage automatique associé(e)",
+      "company": "IBM",
+      "companyUrl": "https://www.linkedin.com/company/ibm",
+      "location": "Toronto, Ontario, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/machine-learning-developer-associate-d%C3%A9veloppeur-euse-en-apprentissage-automatique-associ%C3%A9-e-at-ibm-4462528880"
+    }
+  ]
+}

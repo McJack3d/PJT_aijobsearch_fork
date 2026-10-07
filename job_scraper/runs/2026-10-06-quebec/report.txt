@@ -1,0 +1,43 @@
+QUEBEC JOB SCRAPE — 6 OCTOBER 2026
+65 search cards; 64 unique listings; 11 new full-detail reviews; 5 shortlisted.
+
+No new suitable Quebec VIE verified. SG 26000JFD and 26000EPO already seen; SG 26000JFG detail returned 410 Gone. Business France search did not yield a verified new data-role detail.
+
+HIGH — American Iron & Metal (AIM) — Inventory data & cost analyst
+Montreal, Quebec, Canada | Posted 2026-09-23 | Deadline not stated
+Strong SQL, VBA, Power BI and business analytics overlap. Inventory/supply-chain domain is adjacent. LinkedIn labels mid-senior, but description gives no minimum years. Access experience and January 2027 start need checking.
+https://ca.linkedin.com/jobs/view/inventory-data-cost-analyst-at-american-iron-metal-aim-4467126144
+
+MEDIUM — Ad Hoc Research — Analyste en recherche marketing quantitative
+Montreal, Quebec, Canada | Posted 2026-09-24 | Deadline not stated
+Quantitative marketing, stakeholder work and business degree fit. SPSS is an asset but not evidenced in profile; role is less engineering/ML focused.
+https://ca.linkedin.com/jobs/view/analyste-en-recherche-marketing-quantitative-at-ad-hoc-research-4469698141
+
+MEDIUM — EXFO — Ingénieur analytique d’entreprise
+Québec, Quebec, Canada | Posted 2026-10-01 | Deadline not stated
+Business-facing analytics, Power BI, data quality and AI-assisted development fit. Broad production engineering expectations; dbt, Snowflake and Terraform are gaps. No minimum years stated in description.
+https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-analytique-d%E2%80%99entreprise-at-exfo-4455986161
+
+MEDIUM — Iceberg Finance — Ingénieur de données
+Québec, Quebec, Canada | Posted 2026-09-28 | Deadline not stated
+Finance, SQL, Python and building a new data platform fit. Requires 3+ years, practical Fabric/Azure, Spark and advanced DAX; significant stretch. One remote day per week after probation.
+https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-de-donn%C3%A9es-at-iceberg-finance-4471556139
+
+MEDIUM — Aon — Début de carrière : Développeur junior C# et SQL, analytique de données - PSP
+Montreal, Quebec, Canada | Posted 2026-09-24 | Deadline not stated
+Explicit early-career role with SQL, automation and business liaison work. Requires C#/WPF, not evidenced in profile. Explicitly no visa/work-permit sponsorship; existing Canadian work authorization required.
+https://ca.linkedin.com/jobs/view/d%C3%A9but-de-carri%C3%A8re-d%C3%A9veloppeur-junior-c%23-et-sql-analytique-de-donn%C3%A9es-psp-at-aon-4462771124
+
+EXCLUDED AFTER REVIEW
+NielsenIQ: Requires candidates already living in greater Montreal; current profile is Paris. Skills otherwise relevant.
+École nationale d'administration publique (ENAP): Research-action and urban-governance qualitative/intervention work; limited alignment with data engineering or applied AI priorities.
+Familiprix Siège Social: Requires minimum 5 years plus SAP Analytics Cloud/Datasphere; substantial experience and stack gap.
+Promutuel Assurance: Requires 5–10 years, dbt/Snowflake and insurance-domain knowledge; too senior for current profile.
+iA Financial Group (Industrial Alliance): Excellent GCP/financial-data topic overlap but requires 5–10 years and strong production engineering; monthly on-call week.
+Skadra: Canadian citizenship mandatory, not evidenced in profile; also 24 months of recent applied ML/optimization experience required.
+
+LIMITATIONS
+Search window: last 14 days; first-page targeted search, not exhaustive.
+Local roles do not confirm January 2027 start or sponsorship unless explicitly stated.
+Search-card dates can reflect reposting; detail dates often absent.
+Other title-screened results remain in raw files and were not added to seen state without full review.

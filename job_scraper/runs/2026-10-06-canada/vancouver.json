@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4438352557",
+      "title": "Data Scientist II",
+      "company": "Scribd, Inc.",
+      "companyUrl": "https://www.linkedin.com/company/scribdinc.",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-03",
+      "url": "https://ca.linkedin.com/jobs/view/data-scientist-ii-at-scribd-inc-4438352557"
+    },
+    {
+      "id": "4471545816",
+      "title": "Principal Data Scientist",
+      "company": "Autodesk",
+      "companyUrl": "https://www.linkedin.com/company/autodesk",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/principal-data-scientist-at-autodesk-4471545816"
+    },
+    {
+      "id": "4475833549",
+      "title": "Senior Data Scientist",
+      "company": "Qventus, Inc",
+      "companyUrl": "https://www.linkedin.com/company/qventus-inc",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-05",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-scientist-at-qventus-inc-4475833549"
+    },
+    {
+      "id": "4471138034",
+      "title": "Senior Data Scientist - Fraud Detection",
+      "company": "DataVisor",
+      "companyUrl": "https://www.linkedin.com/company/datavisor",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-scientist-fraud-detection-at-datavisor-4471138034"
+    },
+    {
+      "id": "4455919434",
+      "title": "Data Scientist, ADE Analytics",
+      "company": "Amazon",
+      "companyUrl": "https://www.linkedin.com/company/amazon",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-01",
+      "url": "https://ca.linkedin.com/jobs/view/data-scientist-ade-analytics-at-amazon-4455919434"
+    },
+    {
+      "id": "4469369438",
+      "title": "Sr Product Data Scientist",
+      "company": "Workday",
+      "companyUrl": "https://www.linkedin.com/company/workday",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/sr-product-data-scientist-at-workday-4469369438"
+    },
+    {
+      "id": "4470895223",
+      "title": "Data Scientist",
+      "company": "DarkVision",
+      "companyUrl": "https://ca.linkedin.com/company/darkvision-technologies",
+      "location": "North Vancouver, British Columbia, Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/data-scientist-at-darkvision-4470895223"
+    },
+    {
+      "id": "4465286212",
+      "title": "Data Scientist",
+      "company": "Remarcable",
+      "companyUrl": "https://www.linkedin.com/company/remarcable",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-10-01",
+      "url": "https://ca.linkedin.com/jobs/view/data-scientist-at-remarcable-4465286212"
+    },
+    {
+      "id": "4472238204",
+      "title": "SAU Data Scientist",
+      "company": "The University of British Columbia",
+      "companyUrl": "https://ca.linkedin.com/school/universityofbc/",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-09-26",
+      "url": "https://ca.linkedin.com/jobs/view/sau-data-scientist-at-the-university-of-british-columbia-4472238204"
+    },
+    {
+      "id": "4470726115",
+      "title": "Senior Data and AI Scientist",
+      "company": "Benevity",
+      "companyUrl": "https://ca.linkedin.com/company/benevity",
+      "location": "Vancouver, British Columbia, Canada",
+      "date": "2026-09-25",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-and-ai-scientist-at-benevity-4470726115"
+    }
+  ]
+}

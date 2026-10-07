@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4470967700",
+      "title": "Specialist, Data Engineering",
+      "company": "Sherweb",
+      "companyUrl": "https://ca.linkedin.com/company/sherweb",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/specialist-data-engineering-at-sherweb-4470967700"
+    },
+    {
+      "id": "4471556139",
+      "title": "Ingénieur de données",
+      "company": "Iceberg Finance",
+      "companyUrl": "https://ca.linkedin.com/company/icebergfinance",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-de-donn%C3%A9es-at-iceberg-finance-4471556139"
+    },
+    {
+      "id": "4451248361",
+      "title": "Ingénieur de données",
+      "company": "Services SFT",
+      "companyUrl": "https://ca.linkedin.com/company/services-sft",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-10-02",
+      "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-de-donn%C3%A9es-at-services-sft-4451248361"
+    },
+    {
+      "id": "4470058775",
+      "title": "Spécialiste de l’intégration de données principal ou principale",
+      "company": "Co-operators Assurance et services financiers",
+      "companyUrl": "https://ca.linkedin.com/company/co_operators",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-25",
+      "url": "https://ca.linkedin.com/jobs/view/sp%C3%A9cialiste-de-l%E2%80%99int%C3%A9gration-de-donn%C3%A9es-principal-ou-principale-at-co-operators-assurance-et-services-financiers-4470058775"
+    },
+    {
+      "id": "4465559997",
+      "title": "Développeur(euse) en ingénierie de données",
+      "company": "Promutuel Assurance",
+      "companyUrl": "https://ca.linkedin.com/company/promutuel",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-euse-en-ing%C3%A9nierie-de-donn%C3%A9es-at-promutuel-assurance-4465559997"
+    },
+    {
+      "id": "4471848151",
+      "title": "Senior Data Integration Specialist",
+      "company": "Co-operators",
+      "companyUrl": "https://ca.linkedin.com/company/co-operators",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-25",
+      "url": "https://ca.linkedin.com/jobs/view/senior-data-integration-specialist-at-co-operators-4471848151"
+    },
+    {
+      "id": "4444134893",
+      "title": "Analyste en ingénierie de données",
+      "company": "Promutuel Assurance",
+      "companyUrl": "https://ca.linkedin.com/company/promutuel",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-30",
+      "url": "https://ca.linkedin.com/jobs/view/analyste-en-ing%C3%A9nierie-de-donn%C3%A9es-at-promutuel-assurance-4444134893"
+    },
+    {
+      "id": "4469687447",
+      "title": "Principal Software Developer - Databases",
+      "company": "Autodesk",
+      "companyUrl": "https://www.linkedin.com/company/autodesk",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/principal-software-developer-databases-at-autodesk-4469687447"
+    },
+    {
+      "id": "4455986161",
+      "title": "Ingénieur analytique d’entreprise",
+      "company": "EXFO",
+      "companyUrl": "https://ca.linkedin.com/company/exfo",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-10-01",
+      "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-analytique-d%E2%80%99entreprise-at-exfo-4455986161"
+    },
+    {
+      "id": "4471691013",
+      "title": "Spécialiste BI et Données",
+      "company": "CGI",
+      "companyUrl": "https://ca.linkedin.com/company/cgi",
+      "location": "Québec, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/sp%C3%A9cialiste-bi-et-donn%C3%A9es-at-cgi-4471691013"
+    }
+  ]
+}

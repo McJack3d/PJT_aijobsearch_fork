@@ -1,7 +1,7 @@
 ---
 name: upskill
 description: >
-  Compares tracked job postings against the candidate profile to identify skill gaps and generate
+  Compares selected job postings against the candidate profile to identify skill gaps and generate
   a prioritized learning plan with study resources. Triggers on: /upskill, upskill, skill gaps,
   what should I learn, learning plan
 allowed-tools: Read, Write, Glob, Grep, WebFetch, WebSearch
@@ -13,11 +13,11 @@ allowed-tools: Read, Write, Glob, Grep, WebFetch, WebSearch
 
 ## Overview
 
-`/upskill` analyses jobs you have tracked and your current profile to identify skill gaps, then produces a heatmap of those gaps and a learning plan with concrete, web-searched study resources and a recommended study order.
+`/upskill` analyses jobs you have selected and your current profile to identify skill gaps, then produces a heatmap of those gaps and a learning plan with concrete, web-searched study resources and a recommended study order.
 
 ## Invocation
 
-- **`/upskill`** — aggregate mode: analyses all jobs in `job_search_tracker.csv`
+- **`/upskill`** — aggregate mode: analyses selected ranked postings in `job_scraper/seen_jobs.json`
 - **`/upskill <URL>`** — targeted mode: analyses a single job posting fetched from the URL
 
 ---
@@ -34,34 +34,29 @@ In targeted mode, derive a slug from the job title and company for the report fi
 ## Step 2: Load Data
 
 ### Aggregate mode
-1. Read `job_search_tracker.csv`. Extract all rows. The columns are:
-   `date, company, sector, role, role_type, channel, status, contact_person, fit_rating, notes, cv_file, cover_letter_file, source`
-2. For each row, note the `role`, `company`, and `fit_rating`. The `fit_rating` column is a 0–100 score where 100 = perfect fit. You will use it to weight gaps — a lower fit rating means the role exposed more gaps.
-3. Read `.claude/skills/job-application-assistant/01-candidate-profile.md` to get the candidate's current skills and experience.
-4. Check `upskill/` for the most recent aggregate report file (`report-YYYY-MM-DD.md`) — if one exists, note its date and load it for the diff in Step 8.
+1. Read `job_scraper/seen_jobs.json`. Use the current shortlist's ranked, non-excluded jobs with full posting text; ask the user to select a subset if none is identified. If none exist, accept URLs/text directly or suggest `/rank`.
+2. Use saved full descriptions with provenance or fetch them. Skip unavailable descriptions; never infer requirements from titles.
+3. Read the current-CV evidence section of `01-candidate-profile.md` and the evaluation framework. Respect professional/project/coursework distinctions.
+4. Check `upskill/` for the latest aggregate report for comparison.
 
 ### Targeted mode
 1. Use WebFetch to retrieve the job posting from the URL.
 2. Extract: job title, company, required skills, preferred skills, responsibilities, and any domain context.
 3. Read `.claude/skills/job-application-assistant/01-candidate-profile.md` for the candidate's current skills.
-4. No tracker data is used in targeted mode.
+4. Use only this posting in targeted mode.
 
 ## Step 3: Pass 1 — Hard Skill Diff
 
 Extract required and preferred technical skills from each job source:
 
 ### Aggregate mode
-For each job row in the tracker, you do not have the full posting — use the `role`, `sector`, and `notes` columns to infer likely required skills. If the row has a `source` URL, you may optionally WebFetch it for more detail, but skip if the URL is missing or dead.
-
-Build a **skill frequency map**: for each extracted skill, count how many jobs mention it. Then apply a **fit weight**: for each job, multiply the skill count contribution by `(100 - fit_rating) / 100` — lower fit jobs contribute more to the gap score.
-
-Final score for each skill: `sum of (fit_weight × occurrence)` across all jobs.
+Extract explicit requirements from each full posting. Each required skill contributes 2 and each preferred skill 1 per job; deduplicate repeated mentions within a job. Sum contributions across selected roles. Do not overweight unsuitable jobs merely because their fit is low.
 
 ### Targeted mode
 Extract the explicit required and preferred skills from the fetched posting. Each skill gets equal weight (no fit weighting needed since there is only one job). List required skills before preferred skills, then sort alphabetically within each group.
 
 ### Diff against profile
-Remove any skill from the list that is already present in the candidate profile (`01-candidate-profile.md`). Be generous — if the profile mentions a skill in any form (e.g. "Python" covers "Python scripting"), remove it.
+Compare required depth with current CV evidence. A listed skill or coursework does not close a production-experience gap. Recognise genuine synonyms, but retain depth/scope gaps explicitly.
 
 What remains is the **hard skill gap list**. In aggregate mode, rank by score descending. In targeted mode, list required skill gaps before preferred skill gaps, then sort alphabetically within each group.
 
@@ -84,7 +79,7 @@ In targeted mode, treat all synthesised gaps as arising from a single posting. C
 
 Combine Pass 1 and Pass 2 results into a single prioritised table. Assign priority as follows:
 
-- **Critical**: Hard skills with high frequency/weight scores, or domain gaps that appear across most tracked jobs
+- **Critical**: Hard skills with high frequency/weight scores, or domain gaps that appear across most selected jobs
 - **High**: Hard skills with moderate scores, or soft/tooling gaps that appear consistently
 - **Medium**: Lower-frequency hard skills, or synthesised gaps that appeared in fewer roles
 - **Low**: One-off mentions or minor nice-to-haves
@@ -182,7 +177,7 @@ Assemble the full report in this order:
 **Gaps closed** (skills added to profile since <previous date>):
 - ...
 
-**New gaps** (from jobs tracked since <previous date>):
+**New gaps** (from jobs selected since <previous date>):
 - ...
 
 ---
@@ -241,7 +236,7 @@ After saving, print:
 
 1. **Never fabricate resources.** Only cite resources found via actual WebSearch results. Do not invent course names, URLs, or authors.
 2. **Search with the current year.** Include the year in every WebSearch query for resources so results stay fresh.
-3. **Targeted mode ignores the tracker.** In targeted mode, analyse only the fetched posting. Do not load or reference `job_search_tracker.csv`.
+3. **Targeted mode uses only the fetched posting.** No application history is required.
 4. **Be generous with profile matching.** If a skill appears in the candidate profile in any form, do not flag it as a gap. Avoid false positives.
 5. **Print the heatmap before the learning plan.** Always show the intermediate heatmap table in the terminal before proceeding to resource search, so the user can see what you are working from.
 6. **Omit Low-priority gaps from the learning plan.** List them in the heatmap for completeness, but do not generate study resources for them unless the user asks.

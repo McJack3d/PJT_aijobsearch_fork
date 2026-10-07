@@ -1,0 +1,40 @@
+CANADA JOB SEARCH — 6 OCTOBER 2026
+Assessed against updated CV: /Users/alexandrebredillot/Desktop/Works/CV/CV_Alexandre_Bredillot_EN.docx
+49 unique search listings; 13 new full-detail reviews; 6 shortlisted.
+
+HIGH — Manulife — Associate Applied AI Engineer – GenAI Systems
+Toronto, Ontario, Canada | 2026-10-05
+Top priority. MSc and 0–3 years including internships; Python/SQL, tool calling, production delivery and governance align with new CV. Formal ML/GenAI evaluation and testing evidence needs strengthening. Toronto hybrid; CAD 69,525–115,875.
+https://ca.linkedin.com/jobs/view/associate-applied-ai-engineer-%E2%80%93-genai-systems-at-manulife-4474636489
+
+HIGH — Motorola Solutions — Jr. Software Engineer, AI Agent Platform
+Ontario, Canada | 2026-10-05
+New-grad AI Agent Platform role. LLM integration, tool workflows, GCP and product ownership align. Real-time voice/telephony experience is a gap, but employer accepts exposure in only some areas. On-call duties. No relocation assistance; sponsorship not stated.
+https://ca.linkedin.com/jobs/view/jr-software-engineer-ai-agent-platform-at-motorola-solutions-4475855695
+
+HIGH — exacare ai — Data Analyst
+Toronto, Ontario, Canada | 2026-09-24
+Customer-facing data products, dashboards, end-to-end ownership and business requirements closely match new CV. 1–2 years requested. Healthcare domain and advanced spreadsheet skills need checking; demanding startup culture.
+https://ca.linkedin.com/jobs/view/data-analyst-at-exacare-ai-4470022823
+
+HIGH — Manulife — Data & Reporting Analyst
+Toronto, Ontario, Canada | 2026-10-02
+1–2 years BI/reporting/data modeling. Power BI, SQL, governance/access controls and financial-services exposure fit. Azure/Power Platform learning needed. Toronto hybrid; CAD 55,125–91,875.
+https://ca.linkedin.com/jobs/view/data-reporting-analyst-at-manulife-4473398521
+
+MEDIUM — Ranger AI — [New Grad] Applied AI Engineer
+Canada | 2026-09-25
+New-grad applied AI with customers, agents/tools and production integrations aligns strongly. Explicit strong TypeScript and Go requirement is a substantial gap: new CV lists JavaScript basics, no Go. Canada remote/hybrid; CAD 70,000–95,000.
+https://ca.linkedin.com/jobs/view/new-grad-applied-ai-engineer-at-ranger-ai-4472025860
+
+MEDIUM — IBM — Machine Learning Developer Associate / Développeur(euse) en apprentissage automatique associé(e)
+Toronto, Ontario, Canada | 2026-09-30
+Associate ML/GenAI consulting in Toronto/Calgary/Montreal. Relevant Python, cloud, agentic workflows and business translation. Starts May or September 2027, later than January preference. Requires eligibility to work full-time in Canada; technical-degree equivalence to be checked.
+https://ca.linkedin.com/jobs/view/machine-learning-developer-associate-d%C3%A9veloppeur-euse-en-apprentissage-automatique-associ%C3%A9-e-at-ibm-4462528880
+
+LIMITATIONS
+January 2027 start and sponsorship unconfirmed for shortlist unless stated.
+IBM starts later: May/September 2027.
+No new suitable VIE found; fresh SG requisition requires Java expertise.
+BDO January 2027 new-grad role already in history and excluded as duplicate.
+Targeted first-page searches, not exhaustive.

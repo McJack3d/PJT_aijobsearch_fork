@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "count": 10,
+    "page": 1
+  },
+  "results": [
+    {
+      "id": "4459566513",
+      "title": "Senior Analytics Engineer",
+      "company": "Lightspeed Commerce",
+      "companyUrl": "https://ca.linkedin.com/company/lightspeedcommerce",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/senior-analytics-engineer-at-lightspeed-commerce-4459566513"
+    },
+    {
+      "id": "4459553767",
+      "title": "Ingénieur Analytics Senior",
+      "company": "Lightspeed Commerce",
+      "companyUrl": "https://ca.linkedin.com/company/lightspeedcommerce",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-analytics-senior-at-lightspeed-commerce-4459553767"
+    },
+    {
+      "id": "4470379946",
+      "title": "Ingénieur(e) sénior en analytique",
+      "company": "Securian Canada",
+      "companyUrl": "https://ca.linkedin.com/company/securian-canada",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-25",
+      "url": "https://ca.linkedin.com/jobs/view/ing%C3%A9nieur-e-s%C3%A9nior-en-analytique-at-securian-canada-4470379946"
+    },
+    {
+      "id": "4434166721",
+      "title": "Senior Analytics Developer",
+      "company": "MaintainX",
+      "companyUrl": "https://www.linkedin.com/company/getmaintainx",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/senior-analytics-developer-at-maintainx-4434166721"
+    },
+    {
+      "id": "4475070697",
+      "title": "Analyste en ingénierie de données",
+      "company": "GO ROCK IT",
+      "companyUrl": "https://ca.linkedin.com/company/go-rock-it",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-10-03",
+      "url": "https://ca.linkedin.com/jobs/view/analyste-en-ing%C3%A9nierie-de-donn%C3%A9es-at-go-rock-it-4475070697"
+    },
+    {
+      "id": "4470962693",
+      "title": "Analyste principal.e, Infrastructure de données",
+      "company": "Cossette Media",
+      "companyUrl": "https://ca.linkedin.com/company/cossette-media",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-23",
+      "url": "https://ca.linkedin.com/jobs/view/analyste-principal-e-infrastructure-de-donn%C3%A9es-at-cossette-media-4470962693"
+    },
+    {
+      "id": "4434147072",
+      "title": "Développeur(se) senior en analytique",
+      "company": "MaintainX",
+      "companyUrl": "https://www.linkedin.com/company/getmaintainx",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-24",
+      "url": "https://ca.linkedin.com/jobs/view/d%C3%A9veloppeur-se-senior-en-analytique-at-maintainx-4434147072"
+    },
+    {
+      "id": "4473215797",
+      "title": "Lead Data Engineer",
+      "company": "National Bank of Canada",
+      "companyUrl": "https://ca.linkedin.com/company/banquenationaleducanada",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/lead-data-engineer-at-national-bank-of-canada-4473215797"
+    },
+    {
+      "id": "4460637129",
+      "title": "Spécialiste plateforme de données et intelligence d'affaires",
+      "company": "Normandin Beaudry",
+      "companyUrl": "https://ca.linkedin.com/company/normandin-beaudry",
+      "location": "Montreal, Quebec, Canada",
+      "date": "2026-09-29",
+      "url": "https://ca.linkedin.com/jobs/view/sp%C3%A9cialiste-plateforme-de-donn%C3%A9es-et-intelligence-d-affaires-at-normandin-beaudry-4460637129"
+    },
+    {
+      "id": "4471510947",
+      "title": "Data Analyst Developer",
+      "company": "Air Canada Vacations",
+      "companyUrl": "https://ca.linkedin.com/company/air-canada-vacations",
+      "location": "Greater Montreal Metropolitan Area",
+      "date": "2026-09-28",
+      "url": "https://ca.linkedin.com/jobs/view/data-analyst-developer-at-air-canada-vacations-4471510947"
+    }
+  ]
+}
